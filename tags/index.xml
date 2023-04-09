@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on 모두를 위한 해양 리터러시</title>
+    <link>https://example.org/tags/</link>
+    <description>Recent content in Tags on 모두를 위한 해양 리터러시</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>바다와인간사회</title>
+      <link>https://example.org/tags/%EB%B0%94%EB%8B%A4%EC%99%80%EC%9D%B8%EA%B0%84%EC%82%AC%ED%9A%8C/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/%EB%B0%94%EB%8B%A4%EC%99%80%EC%9D%B8%EA%B0%84%EC%82%AC%ED%9A%8C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>바다이해하기</title>
+      <link>https://example.org/tags/%EB%B0%94%EB%8B%A4%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/%EB%B0%94%EB%8B%A4%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>한국의바다상태</title>
+      <link>https://example.org/tags/%ED%95%9C%EA%B5%AD%EC%9D%98%EB%B0%94%EB%8B%A4%EC%83%81%ED%83%9C/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/%ED%95%9C%EA%B5%AD%EC%9D%98%EB%B0%94%EB%8B%A4%EC%83%81%ED%83%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>해양의상태</title>
+      <link>https://example.org/tags/%ED%95%B4%EC%96%91%EC%9D%98%EC%83%81%ED%83%9C/</link>
+      <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/tags/%ED%95%B4%EC%96%91%EC%9D%98%EC%83%81%ED%83%9C/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
