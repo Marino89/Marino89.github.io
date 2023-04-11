@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -82,7 +105,6 @@
     </header>
     <section class="post-content">
       <h4 id="heading"></h4>
-<br>
 <p>우리나라 인근 바다의 수온은 지속적으로 상승하고 있다. 1968년 이후 2020년까지 우리나라 바다 표면의 연평균 수온은 매년 0.024도 증가하여, 53년 간 약 1.2도 상승하였다. (<a href="http://www.climate.go.kr/home/09_monitoring/marine/sst_main">기상청 종합 기후변화감시정보</a>) 이는 지난 100년 간 약 0.56도 증가한 전지구 연평균 수온에 비해 높은 수준의 상승폭이다.</p>
 <p>한국주변해의 표층 수온의 장기 변화를 보면 1940년대 까지는 비교적 저온 상태였으나 1950년대 이후에는 증가하였으며 1980년대 후반 이후에 본격적인 온난화가 일어났음을 알수 있다. 특히 이 기간 동안 황해, 동해, 동중국해는 계절에 따라 다른 양상을 보이고 있다. 겨울의 수온 변화를 보면 세 지역해에서 모두 1980년 후반부터 2000년까지 증가하였으나 황해에서는 2000년 이후에는 감소한 반면 동해나 동중국해에서는 일시적으로 정체되었다가 2010년 이후 다시 증가하고 있다.</p>
 <figure>
@@ -122,17 +144,23 @@
     
 </figure>
 
-<h5 id="기후변화와-우리나라-인근-바다의-변화">기후변화와 우리나라 인근 바다의 변화</h5>
-<ul>
-<li><a href="">용존산소</a></li>
-<li><a href="">염분</a></li>
-<li><a href="">pH</a></li>
-<li><a href="">해수면 높이</a></li>
-</ul>
+<div style="text-align: center;">
+<blockquote>
+<h4 id="기후변화와-우리나라-인근-바다의-변화httpsmarino89githubiopostkorean_statech410_regional_changes"><a href="https://Marino89.github.io/post/korean_state/ch410_regional_changes/">기후변화와 우리나라 인근 바다의 변화</a></h4>
+</blockquote>
+<p><a href="https://Marino89.github.io/post/korean_state/ch412_oxygen/">용존산소</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch413_salinity/">염분</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch414_ph/">pH</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch415_sea_level/">해수면 높이</a></p>
+</div>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%9C%EA%B5%AD%EC%97%B0%EA%B7%BC%ED%95%B4%EC%83%81%ED%83%9C/">한국연근해상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

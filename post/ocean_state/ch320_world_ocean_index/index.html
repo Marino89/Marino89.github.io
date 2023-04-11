@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -81,14 +104,14 @@
       </section>
     </header>
     <section class="post-content">
-      <h3 id="heading"></h3>
-<p>인류는 바다를 이해하기 위해 다양한 지표를 측정해왔다(참고 <a href="">바다의 지표</a>). 오늘날 바다는 인간의 활동과 그로인한 기후변화로 인해 빠르게 변화하고 있다. 수온은 빠르게 상승 중이며, 강수량 증가 등으로 인해 지역적으로 염분의 변동도 커지고 있다. 바닷물이 따뜻해지고, 일부 해역에서는 생물 활동으로 인해 산소가 고갈되면서 바닷물 속의 용존산소도 전반적으로 줄어들고 있다. 인간이 내뿜은 이산화탄소는 대부분의 양이 바다로 녹아들면서 바다는 점점 산성화되어가고 있다. 또한 대륙빙하가 녹아 바다로 흘러가고, 해수 자체의 열팽창으로 인해 해수면이 상승하고 있다. 이 장에서는 전세계 바다의 여러 지표의 변화를 살펴볼 것이다.</p>
+      <h4 id="heading"></h4>
+<p>인류는 바다를 이해하기 위해 다양한 지표를 측정해왔다(참고 <a href="https://Marino89.github.io/post/ocean_learned/ch230_ocean_index/">바다의 지표</a>). 오늘날 바다는 인간의 활동과 그로인한 기후변화로 인해 빠르게 변화하고 있다. 수온은 빠르게 상승 중이며, 강수량 증가 등으로 인해 지역적으로 염분의 변동도 커지고 있다. 바닷물이 따뜻해지고, 일부 해역에서는 생물 활동으로 인해 산소가 고갈되면서 바닷물 속의 용존산소도 전반적으로 줄어들고 있다. 인간이 내뿜은 이산화탄소는 대부분의 양이 바다로 녹아들면서 바다는 점점 산성화되어가고 있다. 또한 대륙빙하가 녹아 바다로 흘러가고, 해수 자체의 열팽창으로 인해 해수면이 상승하고 있다. 이 장에서는 전세계 바다의 여러 지표의 변화를 살펴볼 것이다.</p>
 <ul>
-<li><a href="">수온</a></li>
-<li><a href="">염분</a></li>
-<li><a href="">용존산소</a></li>
-<li><a href="">pH</a></li>
-<li><a href="">해수면</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch321_increase_temperature/">수온</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch322_world_salinity/">염분</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch323_world_oxygen/">용존산소</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch324_world_ph/">pH</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch325_world_sealevel/">해수면</a></li>
 </ul>
 <figure>
     <img src="/images/img32_2.jpg" alt=""/>
@@ -101,7 +124,11 @@
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%B4%EC%96%91%EC%83%81%ED%83%9C/">해양상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

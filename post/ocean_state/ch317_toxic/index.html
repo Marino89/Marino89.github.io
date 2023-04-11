@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -87,7 +110,7 @@
 수은, 납, 카드뮴과 같은 중금속이나 DDT, PCBs, 살충제와 같은 잔류성 유기오염물질은 바다에 오랜 기간 동안 남아있게 된다.
 독성물질 중 일부는 생물 농축과 증폭으로 인해 최상위 포식자에게 축적되며, 인간이 먹으면 건강상 해를 입을 수 있다.</p>
 </blockquote>
-<h4 id="독성물질은-무엇인가">독성물질은 무엇인가?</h4>
+<h5 id="독성물질은-무엇인가">독성물질은 무엇인가?</h5>
 <p>바다는 오랫동안 여러 오염물질을 마음대로 버릴 수 있는 장소로 여겨져 왔다. 지금도 매년 120억 톤 이상의 하수 슬러지가 바다로 버려지며, 매년 4백만 톤 이상의 원유가 바다로 흘러들어가고 있다. 논과 밭에 사용된 비료나 살충제가 빗물을 타고 바다로 들어가기도 하며, 공업용으로 사용된 중금속이나 유기합성물질 또한 바다로 흘러들어가고 있다. 여러 이유로 방사성물질 또한 오랫동안 바다에 버려지거나 유출되어 왔다.
 이 중 몇몇 독성물질은 매우 오랜 기간 바다에 남아 있으면서 바다 생태계에 영향을 준다. 중금속이나 방사성 물질은 수 백 년에서 수 천 년 이상을 바다에 잔존하기도 한다. 대표적으로 수은과 같은 중금속은 오랫동안 바다에 남아 생물농축이 일어나기도 한다.
 살충제로 쓰였던 DDT나 페인트, 플라스틱, 에어로졸 등에 쓰였던 PCBs와 같은 유기화합물은 오랜 시간 동안 분해되지 않고 잔존하면서, 생물 농축과 증폭의 과정을 거쳐 인간에게 해를 줄 수 있는 대표적인 독성물질이다. 이러한 특성을 가진 물질을 잔류성 유기오염물질(POPs)이라고 부른다. 잔류성 유기오염물질은 지구상 바다 어디에도 퍼져있으며, 심지어 남극의 펭귄에서도 일정량 이상 검출되기도 하였다. DDT는 1972년, PCBs는 1979년 미국에서 사용이 금지되었고, 우리나라에서는 1979년 DDT 판매가 금지되었고, 1996년 이후로 PCBs 제조와 사용이 금지되었다.</p>
@@ -99,10 +122,10 @@
     
 </figure>
 
-<h4 id="독성물질이-가져다주는-피해">독성물질이 가져다주는 피해</h4>
+<h5 id="독성물질이-가져다주는-피해">독성물질이 가져다주는 피해</h5>
 <p>독성물질은 일차적으로 바다 생물의 생장과 번식에 큰 영향을 준다. 바다에 유출된 원유는 고농도에서는 많은 바다 생물들의 호흡을 막고 죽음에 이르게 한다. 낮은 농도의 원유 오염도 해안에서 자라나는 어린 해양 생물의 생장을 저해하여 장기적으로 생태계에 영향을 주기도 한다. 바다에 버려지는 하수 슬러지는 부영양화를 일으켜 물에 녹아있는 산소를 고갈시켜 많은 해양 생물이 죽게 하기도 한다. 또한 하수 오염으로 병원성 세균이 급증하는 경우도 있다.
 DDT나 PCBs와 같은 잔류성 유기오염물질은 해양 생물의 지방 등 체내조직에 축적되면서 생물 농축을 일으킨다. 또한 먹이 사슬을 따라 생물 증폭이 일어나면서 상위 포식자일수록 체내 농도가 높아지기도 한다. 이렇게 체내에 축적된 유기오염물질은 면역체계를 교란하고 중추신경계를 손상시키며 많은 바다생물의 번식을 방해하고, 아예 불임으로 만들기도 한다. 또한 이러한 독성물질을 섭취한 바다 생물을 인간이 섭취하면서 인간에게 건강 상 위해를 가하기도 한다. 인간의 경우에도 주로 지방에 유기오염물질이 축적되며, 대사기능과 내분비기능을 교란시킨다.</p>
-<h4 id="생물농축과-증폭">생물농축과 증폭</h4>
+<h5 id="생물농축과-증폭">생물농축과 증폭</h5>
 <figure>
     <img src="/images/img317_3.jpg" alt=""/>
     
@@ -118,7 +141,11 @@ DDT나 PCBs와 같은 잔류성 유기오염물질은 해양 생물의 지방 �
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%B4%EC%96%91%EC%83%81%ED%83%9C/">해양상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

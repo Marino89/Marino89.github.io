@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -82,21 +105,24 @@
     </header>
     <section class="post-content">
       <h4 id="heading"></h4>
-<br>
 <p>우리나라 바다의 해양산성화 추세를 살펴볼 자료는 충분하지 않다.
 아래 그림은 육지 인근의 바다환경을 측정하는 해양환경측정망 자료를 활용하여 pH 변화 추이를 살펴본 결과이다. 장기추세선은 pH가 소폭 증가했음을 보여주고 있다.</p>
 <p>기상청의 <a href="http://www.climate.go.kr/home/09_monitoring/marine/ph_rel">기후정보포털 종합 기후변화감시정보</a>에서는 정선해양관측자료를 활용하여 국내외 표층 pH의 변동을 보여주고 있다. 그러나 우리나라 바다의 경우 관측기간이 짧고 계절에 따른 변동폭이 커서 아직까지는 유의미한 변화를 찾아보기 어렵다.</p>
-<h5 id="기후변화와-우리나라-인근-바다의-변화">기후변화와 우리나라 인근 바다의 변화</h5>
-<ul>
-<li><a href="">수온</a></li>
-<li><a href="">용존산소</a></li>
-<li><a href="">염분</a></li>
-<li><a href="">해수면 높이</a></li>
-</ul>
+<div style="text-align: center;">
+<h4 id="기후변화와-우리나라-인근-바다의-변화httpsmarino89githubiopostkorean_statech410_regional_changes"><a href="https://Marino89.github.io/post/korean_state/ch410_regional_changes/">기후변화와 우리나라 인근 바다의 변화</a></h4>
+<p><a href="https://Marino89.github.io/post/korean_state/ch411_temperature/">수온</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch412_oxygen/">용존산소</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch413_salinity/">염분</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch415_sea_level/">해수면 높이</a></p>
+</div>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%9C%EA%B5%AD%EC%97%B0%EA%B7%BC%ED%95%B4%EC%83%81%ED%83%9C/">한국연근해상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

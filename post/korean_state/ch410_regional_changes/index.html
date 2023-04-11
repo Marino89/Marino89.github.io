@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -79,30 +102,34 @@
     <section class="post-content">
       <h4 id="heading"></h4>
 <p>우리나라 인근 바다의 변화는 큰 방향에서 지구적인 변화와 비슷한 추세를 보이기도 하지만, 일부 지표는 더욱 빠르게 변화하면서 심각성이 커지고 있다. 수온상승과 해수면 상승은 지구 평균에 비해 빠르게 진행되고 있고, 주변이 육지로 둘러싸인 황해는 큰 강에서 밀려들어오는 민물에 급속하게 염분 농도가 낮아지고 있다.</p>
-<ul>
-<li><a href="">수온</a></li>
-</ul>
+<blockquote>
+<p><a href="https://Marino89.github.io/post/korean_state/ch411_temperature/">수온</a></p>
+</blockquote>
 <p>우리나라 인근 바다의 표층수온은 전세계 평균보다 빠르게 상승하는 경향을 보이고 있다. 우리나라 바다의 표층수온은 53년 간 약 1.2도 상승하여, 지난 100년 간 약 0.56도 증가한 전지구 연평균 수온에 비해 높은 상승폭을 보였다.</p>
-<ul>
-<li><a href="">염분</a></li>
-</ul>
+<blockquote>
+<p><a href="https://Marino89.github.io/post/korean_state/ch413_salinity/">염분</a></p>
+</blockquote>
 <p>우리나라 인근 바다 표면의 염분 농도는 지속적으로 줄어들고 있다. 표층염도는 지난 56년 간 약 0.224psu 줄어들었다. 표층염도가 가장 낮은 서해에서 염도가 가장 빠르게 줄어들고 있다.</p>
-<ul>
-<li><a href="">용존산소</a></li>
-</ul>
+<blockquote>
+<p><a href="https://Marino89.github.io/post/korean_state/ch412_oxygen/">용존산소</a></p>
+</blockquote>
 <p>우리나라 인근 바다의 용존산소는 감소하고 있는 추세이다. 특히 남해에서 가장 빠르게 용존산소가 줄어드는 추세이다.</p>
-<ul>
-<li><a href="">pH</a></li>
-</ul>
+<blockquote>
+<p><a href="https://Marino89.github.io/post/korean_state/ch414_ph/">pH</a></p>
+</blockquote>
 <p>우리나라 인근 바다의 pH 경향을 판단할 자료는 부족하다.</p>
-<ul>
-<li><a href="">해수면</a></li>
-</ul>
+<blockquote>
+<p><a href="https://Marino89.github.io/post/korean_state/ch415_sea_level/">해수면 높이</a></p>
+</blockquote>
 <p>세계 평균에 비해 우리나라 인근 바다의 해수면 상승이 더 빠르게 진행되고 있다. 특히 지난 10년 간의 해수면 상승 속도가 이전에 비해 빠른 것으로 나타났다.</p>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%9C%EA%B5%AD%EC%97%B0%EA%B7%BC%ED%95%B4%EC%83%81%ED%83%9C/">한국연근해상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

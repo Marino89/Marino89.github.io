@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -88,7 +111,7 @@
 플라스틱은 바다생물과 생태계에 악영향을 끼친다. 바다생물들이 플라스틱을 먹이로 오인하여 섭취하거나, 플라스틱 잔해물에 걸려들어 다치거나 죽음에 이르기도 한다.
 5 mm 보다 작은 미세플라스틱은 여러 경로로 만들어지며, 생물과 인체에 더 큰 악영향을 미칠 수 있다.</p>
 </blockquote>
-<h4 id="점점-더-많이-사용되는-플라스틱">점점 더 많이 사용되는 플라스틱</h4>
+<h5 id="점점-더-많이-사용되는-플라스틱">점점 더 많이 사용되는 플라스틱</h5>
 <p>편리하다는 이유로 플라스틱은 우리 생활 곳곳에서 많은 양이 쓰이고 있다. 1950년대 상업적 생산을 시작한 이후, 전세계 플라스틱 생산량은 기하급수적으로 증가하고 있다. 1990년 1억 2천만 톤이었던 플라스틱 생산량은 2015년 기준 3억 8천만 톤으로 25년 사이 3배 증가하였다. 이렇게 생산된 플라스틱 중 40% 이상은 상품 포장에 쓰이고 있다. 사용된 플라스틱 중 재활용되는 것은 20% 정도에 불과하다. 4분의 1 정도는 소각장에서 태워서 처리하고 있으며, 절반 이상의 플라스틱이 쓰레기장에 매립되고 있다.
 한 해 동안 바다에 버려지는 플라스틱 양은 전체 플라스틱 폐기물 양 중 3~5% 수준인 8백만에서 1천 5백만 톤 정도로 추정되고 있다. 이 중 육지로부터 유출되는 양은 전체 중 70~80%로 대다수이며, 나머지 20~30%는 어업 등 바다 위 활동으로 인해 발생하고 있다. 육지에서는 쓰레기 매립장을 잘 관리하지 못해 유출되거나, 불법적으로 바다에 쓰레기를 버리거나, 혹은 비가 내리거나 폭풍우가 치며 쓰레기가 쓸려 내려가면서 플라스틱이 바다로 흘러가게 된다. 바다에서는 어업, 해상 운송, 석유 및 천연가스 플랫폼에서 해양 쓰레기가 나오고 있다.</p>
 <figure>
@@ -99,7 +122,7 @@
     
 </figure>
 
-<h4 id="해양-플라스틱-오염은-얼마나-심할까">해양 플라스틱 오염은 얼마나 심할까?</h4>
+<h5 id="해양-플라스틱-오염은-얼마나-심할까">해양 플라스틱 오염은 얼마나 심할까?</h5>
 <p><figure>
     <img src="/images/img316_3.jpg" alt=""/>
     
@@ -119,23 +142,26 @@
     
 </figure>
 
-<h4 id="해양-플라스틱은-어떤-영향을-주는가">해양 플라스틱은 어떤 영향을 주는가?</h4>
+<h5 id="해양-플라스틱은-어떤-영향을-주는가">해양 플라스틱은 어떤 영향을 주는가?</h5>
 <p>플라스틱은 그 크기에 따라 해양생태계와 인간에 여러 가지 문제를 일으킨다. 가장 먼저 아직 분해가 되지 않은 큰 플라스틱 쓰레기에 바다 생물이 끼이기도 한다. 바다새나 물범, 고래, 거북과 같은 수많은 종류의 생물이 폐그물이나 플라스틱 줄, 어업용 장비, 각종 플라스틱 포장재에 몸이 끼여 죽어가는 게 발견되었다.
 해양생물이 플라스틱을 먹기도 한다. 거북이가 비닐봉지를 해파리로 오인해 먹는 것과 같이 의도적으로 먹는 경우 외에도, 의도치 않게 먹는 경우도 있으며, 먹이를 먹으면서 먹이 안에 있는 플라스틱을 간접적으로 섭취하게 되기도 한다. 한 연구[1]에 따르면 바다거북과 물범, 고래, 바다새 종의 절반 이상에서 섭취한 플라스틱이 발견되었다. 플라스틱 섭취는 플라스틱의 크기에 따라 다른데, 잘게 쪼개진 플라스틱은 굴과 같이 바닷물을 걸러 먹이를 섭취하는 종에게서 많이 섭취된다. 그에 반해 플라스틱 포장재 등은 좀 더 큰 물고기 종이 섭취한다. 플라스틱 섭취는 다른 먹이 활동을 방해하기도 하고, 위장 활동을 방해하거나, 대사 장애를 일으켜 심한 경우 죽음에 이르게 하기도 한다.</p>
 <p>미세플라스틱은 왜 특별히 문제가 되는가?
 5mm 이하 크기의 마이크로 플라스틱과 100nm 이하의 나노 플라스틱은 생체 안으로 흡수되므로 특히 위험할 수 있다. 미세플라스틱은 연마제나 비즈 같이 작게 만들어진 플라스틱 외에도 자연 상태에서 플라스틱이 태양광 자외선이나 파도 등에 의해 작게 쪼개져 만들어지기도 한다. 미세플라스틱은 그 크기가 작은 만큼 바다 생물들이 먹이로 오인해 섭취할 가능성이 더 크다. 미세 플라스틱은 수돗물, 생수 뿐 아니라 많은 종류의 식품에서 발견되고 대부분의 사람들이 상당량을 먹는 것으로 보고되고 있다.
 미세 플라스틱을 계속 섭취할 경우 체내에 미세 플라스틱 농도가 높아지는 생물농축(bio-concentration)이 일어날 수 있다. 또한 미세 플라스틱을 먹은 생물을 먹은 포식자는 더 많은 미세 플라스틱이 몸에 축적되는 생물증폭(bio-magnification) 또한 발생할 수 있다. 이렇게 해양생물 체내에 축적된 미세플라스틱은 우리가 식탁에서 생선 등을 먹으면서 우리 몸에도 마찬가지로 축적된다.
 연구방법상의 어려움으로 인해 미세플라스틱이 인체에 미치는 영향에 대해서는 아직 충분한 연구가 이루어지지 않았다. 그러나 몇몇 연구[2]는 플라스틱에 함유된 프탈레이트(phthalate), 비스페놀 A (bisphenol A) 등의 내분비계 교란물질이 유전독성, 성기능장애 등을 유발한다고 주장한다.</p>
-<p>[더 읽어보기]</p>
-<p>-Our World in Data, Plastic pollution [https://ourworldindata.org/plastic-pollution]</p>
-<p>IUCN, Marine plastic pollution [https://www.iucn.org/resources/issues-briefs/marine-plastic-pollution]</p>
-<p>[출처]</p>
+<p><strong>더 읽어보기</strong></p>
+<p><a href="https://ourworldindata.org/plastic-pollution">Our World in Data, Plastic pollutio</a></p>
+<p><a href="https://www.iucn.org/resources/issues-briefs/marine-plastic-pollution">IUCN, Marine plastic pollution</a></p>
 <p>[1] Kühn, S., Rebolledo, E. L. B., &amp; van Franeker, J. A. (2015). Deleterious effects of litter on marine life. In Marine Anthropogenic Litter (pp. 75-116). Springer, Cham. [https://link.springer.com/chapter/10.1007/978-3-319-16510-3_4.]</p>
 <p>[2] Cole, M., Lindeque, P., Halsband, C., &amp; Galloway, T. S. (2011). Microplastics as contaminants in the marine environment: a review. Marine pollution bulletin, 62(12), 2588-2597. [https://doi.org/10.1016/j.marpolbul.2011.09.025]</p>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%B4%EC%96%91%EC%83%81%ED%83%9C/">해양상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

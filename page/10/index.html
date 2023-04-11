@@ -33,6 +33,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="">
@@ -51,15 +74,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -81,7 +104,7 @@
     
         <a class="newer-posts" href="/page/9/">&larr; 이전 글</a>
     
-    <span class="page-number">Page 10 of 13</span>
+    <span class="page-number">Page 10 of 14</span>
     
         <a class="older-posts" href="/page/11/">다음 글 &rarr;</a>
     
@@ -92,18 +115,18 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img222_1.jpg"></img>
+      <img src="/images/img300.jpg"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch222_wave_tide/">파도와 조석</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch300_ocean_state/">전 세계 해양의 상태</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      파도 파도는 바람에 의해 생겨난다. 바람이 다른 지형지물의 방해를 받지 않으면서, 오랫동안, 세게 불수록 파도는 더 커진다. 바람에 의해 먼 바다에서 생겨나는 파도를 풍랑(wind wave)이라 부른다. 풍랑은 바람에 의해 직접 생겨나다보니 파도의 끝이 뾰족하고, 파도와 파도 사이 간격, 즉 파장이 좁다. 이렇게 생겨난 풍랑은 바람을 받지 않는 곳으로 퍼져나가며 점차 약해지면서 파장이 길고 파도의 끝이 둥그스름해지는데 이런 파도를 너울(swell)이라 부른다. 풍랑은 파장이 수십 미터 이내로 주기가 2초에서 8초 정도 되지만, 너울은 파장이 수백 미터에 달하고 그 주기 또한 5초에서 15초 정도 된다. &hellip; <a class="read-more" href="/post/ocean_learned/ch222_wave_tide/">&raquo;</a>
+      지금 바다의 상태는 빠르게 변하고 있다. 바다는 지금까지 누적된 인간의 활동으로 인해 여러 문제가 발생하고 있다. 기후변화로 인해 수온 상승, 해수면 상승, 빈산소화, 산성화 같은 문제가 대두되고 있다. 오랫동안 바다에 버려온 폐기물은 유해조류 대번식과 미세플라스틱 및 독성물질로 우리에게 돌아오고 있다. 지나친 연안 개발과 남획으로 해양생태계는 커다란 교란에 직면해있다. 전세계 해양의 주요 지표 또한 적색 경고를 내고 있다. 이를 측정하고 추적하는 해양과학자들은 더 늦기 전에 바다를 지켜야 한다고 경고하고 있다. &hellip; <a class="read-more" href="/post/ocean_state/ch300_ocean_state/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-03</time>
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -111,19 +134,18 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img223_1.png"></img>
+      <img src="/images/img310_1.jpg"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch223_current/">해류</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch310_ocean_problems/">전 세계 해양이 겪고 있는 대표적 문제들</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      해류는 바다의 표층에서 한 방향을 향해 계속해서 수평으로 움직이는 현상을 말한다. 파도는 물이 거의 제 자리를 진동하는 현상이지만, 해류는 바닷물이 실제로 수평 방향으로 움직이는 현상이다. 해류는 바람과 코리올리 효과, 온도와 염도의 차이, 바다 표층 높이의 차이 등 여러 원인이 합쳐져서 생겨난다.
-전향력 혹은 코리올리 효과(Coriolis effect): 지구는 하루 24시간 동안 한 번 서쪽에서 동쪽으로 자전한다. 적도에 있는 사람과 한반도에 있는 사람 모두 24시간에 한 번 360도 회전을 하지만(시간당 15도), 적도의 자전 속도(시간당 약 1,670km)와 한반도의 자전 속도(시간당 약 1,300km)는 다르다. &hellip; <a class="read-more" href="/post/ocean_learned/ch223_current/">&raquo;</a>
+      바다는 지금 다양한 문제에 직면해있다. 인간은 바다가 무한한 마냥 바다를 이용해왔지만, 인간의 여러 활동이 누적되면서, 바다도 여러 이상신호를 보내고 있다. 인간이 대기 중으로 뿜어낸 이산화탄소가 바다로 대량 흡수되면서 바다는 점차 산성화되고 있다. 인위적 기후변화로 인해 지구에 추가로 축적된 열의 대부분을 바다가 흡수하면서 바다가 점차 따뜻해지고 있기도 하다. 이렇게 바다 수온이 상승하면서 전세계 바다에 녹아있는 산소량이 줄어들고 있다. 몇몇 해역에서는 부영양화로 인해 유해조류가 대번식하고 사멸하면서 산소가 고갈되고 많은 바다생물이 죽는 사태도 점점 더 자주 벌어지고 있다. &hellip; <a class="read-more" href="/post/ocean_state/ch310_ocean_problems/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-03</time>
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -131,19 +153,18 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img224_1.png"></img>
+      <img src="/images/img311_1.jpg"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch224_hydrothermal/">열염순환과 수직순환</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch311_warming/">수온상승</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      열염순환 앞서 살펴본 바다 표층의 수평 방향의 해류와 함께 바닷물은 수직 방향으로도 순환하고 있다. 그린란드와 노르웨이 인근과 남극해의 웨델해와 로스해의 바닷물은 매우 차갑고 염도가 높아 밀도가 상대적으로 높다. 이렇게 밀도가 높은 바닷물은 해저로 침강해서 전세계 바다의 해저로 흘러간다. 이렇게 흘러간 심층수는 아주 천천히 전세계 해안 곳곳에서 상승하며 다시 표면의 해류를 따라 흐른다.
-전세계 바다의 수온 전세계 바다의 염분 그린란드와 노르웨이 북부의 바다에서 냉각된 바닷물은 대서양 깊숙이로 침강한다. 출처: shutterstock &hellip; <a class="read-more" href="/post/ocean_learned/ch224_hydrothermal/">&raquo;</a>
+      인간 활동에 의해 대기 중 온실가스 농도가 증가하고, 이로 인해 누적된 대기 중의 열을 바다가 흡수하면서 바다가 더워지고 있다. 해양의 온난화는 표층뿐 아니라 심층에서도 일어나고 있으며, 이로 인해 해수와 해양 생태계 전체에 큰 변화가 있을 것으로 예상된다. 수온상승은 온도에 민감한 해양 생물의 생존에 악영향을 끼치며, 생물의 이동과 생식에도 영향을 주어 해양생물의 분포를 바꾸고 있다.. 수온상승은 표층 바다와 심층 바다의 순환을 교란할 수 있다. 이는 바다 생태계 전반에 악영향을 주며, 기후와 어업에도 큰 변화를 가져올 수 있다. &hellip; <a class="read-more" href="/post/ocean_state/ch311_warming/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-03</time>
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -151,20 +172,19 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img231_1.jpg"></img>
+      <img src="/images/img312_1.png"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch231_index_temperature/">수온</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch312_hypoxia/">빈산소화</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      수온은 해양 생물들의 생존, 생식, 생장 등에 직접적으로 영향을 미치는 매우 중요한 지표이다. 수온의 변화는 생물 개체뿐 아니라 궁극적으로는 해양생태계 전체의 급격한 변화로 이어질 수 있다.
-수온은 바다 내의 환경뿐 아니라, 지구 전체의 기후 상태를 보여주는 지표라는 점에서도 특히 중요하다.
-수온은 왜 중요한 지표인가? 1) 생물과 생태계에 영향을 미치는 수온 수온은 바다의 상태를 보여주는 가장 중요한 지표 중 하나다. 수온은 해양 생물들의 생존, 생식, 생장 등에 결정적인 역할을 하기 때문이다. &hellip; <a class="read-more" href="/post/ocean_learned/ch231_index_temperature/">&raquo;</a>
+      기후변화와 부영양화로 인해 바다의 용존산소가 줄어드는 빈산소화가 심화되고 있다. 특히 기후변화로 인한 수온상승은 해수의 산소 용해도를 낮추고 표층수와 저층수 간 순환을 저해시켜 빈산소화를 심화시킨다. 부영양화가 일어나면 조류가 대량증식하고, 이들이 호흡하고 분해되는 과정에서 산소가 사용되어 바닷물 속의 용존산소가 크게 줄어든다. 빈산소화의 심화는 해양 생물들의 생존에 직접적인 위협이 되며, 이들의 생식과 성장에도 영향을 미친다. 결과적으로 생태계 전체 차원에서도 큰 불안정을 야기할 수 있다.
+2007년 가을 발트해 저층수의 용존산소 값을 토대로 추정한 빈산소 및 무산소 영역 (발트해는 북유럽에 위치한 바다로, 스칸디나비아반도와 동유럽으로 둘러싸여 있다. &hellip; <a class="read-more" href="/post/ocean_state/ch312_hypoxia/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-03</time>
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -175,7 +195,7 @@
     
         <a class="newer-posts" href="/page/9/">&larr; 이전 글</a>
     
-    <span class="page-number">Page 10 of 13</span>
+    <span class="page-number">Page 10 of 14</span>
     
         <a class="older-posts" href="/page/11/">다음 글 &rarr;</a>
     

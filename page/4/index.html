@@ -33,6 +33,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="">
@@ -51,15 +74,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -81,7 +104,7 @@
     
         <a class="newer-posts" href="/page/3/">&larr; 이전 글</a>
     
-    <span class="page-number">Page 4 of 13</span>
+    <span class="page-number">Page 4 of 14</span>
     
         <a class="older-posts" href="/page/5/">다음 글 &rarr;</a>
     
@@ -92,17 +115,18 @@
       <article class="post">
 	<header class="post-header">
     
-		<h2 class="post-title"><a href="/post/korean_state/ch410_regional_changes/">우리나라 인근 바다의 변화</a></h2>
+      <img src="/images/img221_1.png"></img>
+    
+		<h2 class="post-title"><a href="/post/ocean_learned/ch221_vertical_structure/">바다의 수직구조</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      우리나라 인근 바다의 변화는 큰 방향에서 지구적인 변화와 비슷한 추세를 보이기도 하지만, 일부 지표는 더욱 빠르게 변화하면서 심각성이 커지고 있다. 수온상승과 해수면 상승은 지구 평균에 비해 빠르게 진행되고 있고, 주변이 육지로 둘러싸인 황해는 큰 강에서 밀려들어오는 민물에 급속하게 염분 농도가 낮아지고 있다.
-수온 우리나라 인근 바다의 표층수온은 전세계 평균보다 빠르게 상승하는 경향을 보이고 있다. 우리나라 바다의 표층수온은 53년 간 약 1.2도 상승하여, 지난 100년 간 약 0.56도 증가한 전지구 연평균 수온에 비해 높은 상승폭을 보였다. &hellip; <a class="read-more" href="/post/korean_state/ch410_regional_changes/">&raquo;</a>
+      바다는 육지에서부터 멀어지면서 점점 깊어진다. 육지를 둘러싼 수심 200미터까지의 얕고 완만한 경사를 가진 해저 지형을 대륙붕이라 부른다. 대륙붕을 벗어나면 갑자기 급격한 경사를 가진 지형이 나타나는데 이를 대륙사면이라 부른다. 대륙사면의 수심은 100~2000미터 정도이다. 대륙사면 아래에는 육지로부터 저탁류를 타고 흘러온 물질이 쌓이는 대륙대가 있다. 더 깊은 바다에는 해양판 위의 심해평원이 존재한다. 전체 해양 면적의 40% 정도를 차지하는 심해평원은 평균 깊이가 3000~6000미터에 달한다. 마지막으로 대륙판과 해양판이 만나는 지점에는 깊은 구덩이인 해구가 존재한다. 가장 깊은 해구는 마리아나 해구의 챌린저 해연으로 그 깊이가 무려 10,920미터에 달해, 지구 상 가장 높은 산인 에베레스트 산(8,850미터)보다도 깊다. &hellip; <a class="read-more" href="/post/ocean_learned/ch221_vertical_structure/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-10</time>
+    <time class="post-date">2022-12-30</time>
 	</footer>
 </article>
 
@@ -110,19 +134,18 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img411_1.png"></img>
+      <img src="/images/img222_1.jpg"></img>
     
-		<h2 class="post-title"><a href="/post/korean_state/ch411_temperature/">수온</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_learned/ch222_wave_tide/">파도와 조석</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      우리나라 인근 바다의 수온은 지속적으로 상승하고 있다. 1968년 이후 2020년까지 우리나라 바다 표면의 연평균 수온은 매년 0.024도 증가하여, 53년 간 약 1.2도 상승하였다. (기상청 종합 기후변화감시정보) 이는 지난 100년 간 약 0.56도 증가한 전지구 연평균 수온에 비해 높은 수준의 상승폭이다.
-한국주변해의 표층 수온의 장기 변화를 보면 1940년대 까지는 비교적 저온 상태였으나 1950년대 이후에는 증가하였으며 1980년대 후반 이후에 본격적인 온난화가 일어났음을 알수 있다. 특히 이 기간 동안 황해, 동해, 동중국해는 계절에 따라 다른 양상을 보이고 있다. &hellip; <a class="read-more" href="/post/korean_state/ch411_temperature/">&raquo;</a>
+      파도 파도는 바람에 의해 생겨난다. 바람이 다른 지형지물의 방해를 받지 않으면서, 오랫동안, 세게 불수록 파도는 더 커진다. 바람에 의해 먼 바다에서 생겨나는 파도를 풍랑(wind wave)이라 부른다. 풍랑은 바람에 의해 직접 생겨나다보니 파도의 끝이 뾰족하고, 파도와 파도 사이 간격, 즉 파장이 좁다. 이렇게 생겨난 풍랑은 바람을 받지 않는 곳으로 퍼져나가며 점차 약해지면서 파장이 길고 파도의 끝이 둥그스름해지는데 이런 파도를 너울(swell)이라 부른다. 풍랑은 파장이 수십 미터 이내로 주기가 2초에서 8초 정도 되지만, 너울은 파장이 수백 미터에 달하고 그 주기 또한 5초에서 15초 정도 된다. &hellip; <a class="read-more" href="/post/ocean_learned/ch222_wave_tide/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-10</time>
+    <time class="post-date">2022-12-30</time>
 	</footer>
 </article>
 
@@ -130,21 +153,19 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img412_1.png"></img>
+      <img src="/images/img223_1.png"></img>
     
-		<h2 class="post-title"><a href="/post/korean_state/ch412_oxygen/">용존산소</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_learned/ch223_current/">해류</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      우리나라 인근의 바다의 용존산소는 줄어들고 있는 추세를 보이고 있다. 정선해양관측자료를 활용해 매년 여름, 바다 저층의 용존산소 추세를 살펴보면 아래 그림과 같다. 매년 변동이 있지만 전반적으로 용존산소가 줄어드는 모습을 보이고 있다.
-해역 별로 살펴보면 동중국해와 남해(각각 연한 파랑과 짙은 파랑)의 용존산소가 동해(녹색)와 서해(노란색)에 비해 빠르게 줄어들고 있음을 알 수 있다.
-ⓒ 유신재
-저층뿐만 아니라 우리 바다의 모든 깊이에서 용존산소가 줄어들고 있다. 25년 간(1976~2000년) 서해바다의 용존산소를 관측한 자료를 보면 바다의 표층과 저층(바닥) 모두에서 용존산소가 감소하고 있다. &hellip; <a class="read-more" href="/post/korean_state/ch412_oxygen/">&raquo;</a>
+      해류는 바다의 표층에서 한 방향을 향해 계속해서 수평으로 움직이는 현상을 말한다. 파도는 물이 거의 제 자리를 진동하는 현상이지만, 해류는 바닷물이 실제로 수평 방향으로 움직이는 현상이다. 해류는 바람과 코리올리 효과, 온도와 염도의 차이, 바다 표층 높이의 차이 등 여러 원인이 합쳐져서 생겨난다.
+전향력 혹은 코리올리 효과(Coriolis effect): 지구는 하루 24시간 동안 한 번 서쪽에서 동쪽으로 자전한다. 적도에 있는 사람과 한반도에 있는 사람 모두 24시간에 한 번 360도 회전을 하지만(시간당 15도), 적도의 자전 속도(시간당 약 1,670km)와 한반도의 자전 속도(시간당 약 1,300km)는 다르다. &hellip; <a class="read-more" href="/post/ocean_learned/ch223_current/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-10</time>
+    <time class="post-date">2022-12-30</time>
 	</footer>
 </article>
 
@@ -152,19 +173,19 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img413_1.png"></img>
+      <img src="/images/img224_1.png"></img>
     
-		<h2 class="post-title"><a href="/post/korean_state/ch413_salinity/">염분</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_learned/ch224_hydrothermal/">열염순환과 수직순환</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      전세계적으로 강수량 증가 등으로 인해 바다 표면의 염분 농도가 낮아지고 있다. 우리나라 인근의 바다 또한 마찬가지로 염분 농도가 줄어들고 있는 상황이다. 우리나라 인근 바다 전체의 경우 지난 56년(1964-2019년) 동안 약 0.224psu 줄어들어, 북서태평양 염분 변화 값과 유사한 모습을 보이고 있다(출처).
-서해(노란색)는 동해(초록색)나 남해(파랑색)에 비해 표층 염분농도가 낮다. 서해는 표층 염분농도가 낮아지는 속도 또한 가장 빨라서 지난 56년 간 0.358psu 정도 낮아졌다. 남해는 56년 간 0.302psu, 동해는 0.09psu 정도 낮아졌다. &hellip; <a class="read-more" href="/post/korean_state/ch413_salinity/">&raquo;</a>
+      열염순환 앞서 살펴본 바다 표층의 수평 방향의 해류와 함께 바닷물은 수직 방향으로도 순환하고 있다. 그린란드와 노르웨이 인근과 남극해의 웨델해와 로스해의 바닷물은 매우 차갑고 염도가 높아 밀도가 상대적으로 높다. 이렇게 밀도가 높은 바닷물은 해저로 침강해서 전세계 바다의 해저로 흘러간다. 이렇게 흘러간 심층수는 아주 천천히 전세계 해안 곳곳에서 상승하며 다시 표면의 해류를 따라 흐른다.
+전세계 바다의 수온 전세계 바다의 염분 그린란드와 노르웨이 북부의 바다에서 냉각된 바닷물은 대서양 깊숙이로 침강한다. 출처: shutterstock &hellip; <a class="read-more" href="/post/ocean_learned/ch224_hydrothermal/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-10</time>
+    <time class="post-date">2022-12-30</time>
 	</footer>
 </article>
 
@@ -175,7 +196,7 @@
     
         <a class="newer-posts" href="/page/3/">&larr; 이전 글</a>
     
-    <span class="page-number">Page 4 of 13</span>
+    <span class="page-number">Page 4 of 14</span>
     
         <a class="older-posts" href="/page/5/">다음 글 &rarr;</a>
     

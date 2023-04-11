@@ -32,6 +32,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="tag-template">
@@ -50,15 +73,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -78,7 +101,7 @@
 
 <nav class="pagination" role="navigation">
     
-    <span class="page-number">Page 1 of 5</span>
+    <span class="page-number">Page 1 of 6</span>
     
         <a class="older-posts" href="/post/page/2/">다음 글 &rarr;</a>
     
@@ -89,18 +112,19 @@
   <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img200_01.jpg"></img>
+      <img src="/images/img325_1.png"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch325_world_sealevel/">세계 해양의 지표 - 해수면 높이</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      지구는 바다가 70% 이상 표면을 덮고 있는 바다의 행성이다. 바다는 대륙과 대륙 사이를 순환하며 잠시도 쉬지 않고 움직인다. 인류는 바다의 특성과 움직임을 이해하기 위해 오랫동안 바다를 탐험하고 연구해왔다. 하지만 여전히 바다의 여러 특성은 충분히 이해되지 못한 부분이 있다. 바다를 조사하는 게 어려운 이유 중 하나는 바다의 환경이 육상에서 대기 아래 살고 있는 우리의 환경과 너무나 다르기 때문이다. 바다는 대기와는 다른 물리적 구조를 가지고 있으며, 물의 흐름 또한 대기와는 다른 방식으로 다양하게 나타난다. &hellip; <a class="read-more" href="/post/ocean_learned/ch200_ocean_learn/">&raquo;</a>
+      기후변화로 인해 전지구적으로 해수면 높이가 상승하고 있으며, 그 상승 속도는 점점 더 빨라지고 있다. 해수면 높이의 상승 속도는 모두 같지 않고, 해역별로 차이가 있다. 이는 해수면 높이의 변동에 영향을 미치는 요인들의 변화 정도가 해역마다 다르기 때문이다.
+전세계 평균 해수면 변화 과학적 측정이 시작된 1880년 이후로 세계 평균 해수면 높이는 약 21~24cm 증가했다.1 1900년부터 1990년 사이에는 평균적으로 약 10~12.7cm 가량 상승한 것으로 추정된다. 이후 1990년부터 2015년 사이에 불과 25년만에 7.6cm가 증가했다. &hellip; <a class="read-more" href="/post/ocean_state/ch325_world_sealevel/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-31</time>
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -108,18 +132,59 @@
   <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img210_1.jpg"></img>
+      <img src="/images/img324_1.png"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch210_what_special/">바다는 무엇이 특별한가?</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch324_world_ph/">세계 해양의 지표 - pH</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      육상에서 대기 속에 숨을 쉬며 살아온 인간에게 바다는 아주 낯선 환경이다. 우리가 공기 속에서 살아가듯 해양생물들은 바닷물 속에서 살아간다. 하지만 공기와 바닷물은 그 물리적 성질이 매우 다르기에, 해양생물은 지상의 생물과는 매우 다른 생활사를 가지고 있다. 바닷물은 공기와는 매우 다른 물리적 성질을 가지고 있다. 우리가 숨 쉬는 공기는 기체이지만, 바닷물은 액체이다. 물의 밀도는 공기의 약 800배로 1, 부력과 점성, 비열이 훨씬 크다. 부력과 점성이 크다보니 해양생물은 바닷물 위에서 쉽게 떠 있을 수 있다. &hellip; <a class="read-more" href="/post/ocean_learned/ch210_what_special/">&raquo;</a>
+      전세계 바다의 평균 pH는 8.1 정도이다. 산업시대 이전의 평균 pH에 비해 0.1 정도 하락하였으며, 이는 약 30% 정도 산성화되었다는 것을 뜻한다.
+전세계 바다의 pH 바다는 바닷물 속에 녹아있는 여러 염이온의 영향으로 약한 알칼리를 띠고 있다. 현재 바다의 평균 pH는 약 8.1로 산업화시대 이전의 평균 8.2에 비해서 0.1 정도 떨어진 상태이다. 그러나 이는 수소 이온 농도가 30% 증가한 수준이다. [2-3-4. pH 참고] pH는 염도와 온도, 담수의 유입 등의 영향을 받지만, 복잡한 화학적, 생물학적 완충 효과로 인해 그렇게 큰 차이를 나타내지는 않는다. &hellip; <a class="read-more" href="/post/ocean_state/ch324_world_ph/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-30</time>
+    <time class="post-date">2023-01-10</time>
+	</footer>
+</article>
+
+  
+  <article class="post">
+	<header class="post-header">
+    
+      <img src="/images/img323_1.png"></img>
+    
+		<h2 class="post-title"><a href="/post/ocean_state/ch323_world_oxygen/">용존산소</a></h2>
+	</header>
+  <br />
+	<section class="post-excerpt">
+    <p>
+      세계의 바다에서 산소가 줄어들고 있다. 지난 20세기 중반부터 현재까지 세계의 외해와 연안 모두에서 용존산소가 줄어들었다. 해역별 차이는 있으나, 평균적으로 1950년 이래로 전세계 해역에서 용존산소가 약 2% 줄어들었다. 완전히 산소가 고갈된 해역의 면적은 1960년에 비해 현재 4배 넓어졌다.1 1960년대부터 현재까지 외해에서 저산소인 바다의 면적은 450만 km2 증가했고, 하구와 다른 연안 수역에서는 500개 이상의 해역이 저산소 상태인 것으로 확인되었다. 2
+바다의 어느 부분에서 특히 용존산소가 줄어들었나? 용존산소의 감소는 열대와 북태평양, 남대서양, 남극해, 북극해의 수심 100-300m 층에서 가장 큰 것으로 나타났다. &hellip; <a class="read-more" href="/post/ocean_state/ch323_world_oxygen/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2023-01-10</time>
+	</footer>
+</article>
+
+  
+  <article class="post">
+	<header class="post-header">
+    
+      <img src="/images/img322_1.png"></img>
+    
+		<h2 class="post-title"><a href="/post/ocean_state/ch322_world_salinity/">세계 해양의 염분 분포</a></h2>
+	</header>
+  <br />
+	<section class="post-excerpt">
+    <p>
+      전세계 바다의 평균 염분 농도는 psu 단위로 35 정도이며, 해역에 따라 차이가 나타난다.[염분이란?] 일반적으로 외해와 연안의 염분 분포는 서로 다른 양상을 보인다. 육지로부터의 직접적 영향이 더 큰 연안이나 반폐쇄된 해역의 경우 하천으로부터의 담수 유입 등의 변수로 인해 염도의 범위가 대략 0~40 으로 넓은 편인 반면, 외양의 경우 보통 34~37 의 좁은 범위 내에서의 분포를 보인다.
+해역별로 염분 농도가 다른 이유: 강수, 증발, 결빙, 육지로부터의 유입 해역별로 염도에 차이가 나타나는 이유는 염 이온 자체의 증가나 감소보다는 담수의 유입과 유출량에 달려있다. &hellip; <a class="read-more" href="/post/ocean_state/ch322_world_salinity/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -246,52 +311,11 @@
 </article>
 
   
-  <article class="post">
-	<header class="post-header">
-    
-      <img src="/images/img315_1.jpg"></img>
-    
-		<h2 class="post-title"><a href="/post/ocean_state/ch315_harmful_algal_bloom/">유해조류 대번식</a></h2>
-	</header>
-  <br />
-	<section class="post-excerpt">
-    <p>
-      유해 조류 대번식은 조류의 급격한 증식으로 인해 바다의 색이 변하거나, 독성물질에 의한 피해가 나타나는 현상을 뜻한다. 유해 조류 대번식은 주로 수온이 높고, 영양분이 과도할 때 발생한다. 유해 조류 대번식으로 인해 수중 산소가 고갈되고, 때로는 독성 물질이 생성되어 해양 생물들의 집단 폐사를 일으키기도 한다. 이는 또한 인간 사회의 사회경제적 피해로 이어진다.
-유해 조류 대번식(Harmful Algal Blooms)은 어떤 현상을 뜻하는가? 유해 조류 대번식은 식물플랑크톤의 급격한 번식으로 인해 바닷물의 색이 평상시와 다른 색으로 변하거나, 거품이나 페인트와 같은 모습을 띠는 현상을 말한다. &hellip; <a class="read-more" href="/post/ocean_state/ch315_harmful_algal_bloom/">&raquo;</a>
-    </p>
-	</section>
-	<footer class="post-meta">
-    <time class="post-date">2023-01-10</time>
-	</footer>
-</article>
-
-  
-  <article class="post">
-	<header class="post-header">
-    
-      <img src="/images/img314_1.png"></img>
-    
-		<h2 class="post-title"><a href="/post/ocean_state/ch314_sea_level/">해수면 상승</a></h2>
-	</header>
-  <br />
-	<section class="post-excerpt">
-    <p>
-      기후변화로 인해 빙하와 빙상이 녹은 물이 바다로 흘러들고, 해수가 열팽창하면서 해수 전체의 부피가 커지면서 해수면이 상승하고 있다. 과학적 측정이 시작된 1880년 이후로 세계 평균 해수면은 상승해왔으며, 최근 들어 그 상승 속도가 더욱 빨라지고 있다. 해수면 상승으로 인한 해안 지역의 침수로 인해 집을 잃은 난민이 대거 발생할 수 있으며, 농경지 등의 침수로 식량 수급에도 문제가 생길 수 있다.
-해수면 상승의 정의와 원인 ⓒ 유채원
-기후변화와 관련된 대표적인 해양 문제로서 언급되는 해수면 상승은 전세계 바다의 수면이 높아지는 현상을 말하며, 그 주된 원인은 지구온난화로 인한 수온의 상승이다. &hellip; <a class="read-more" href="/post/ocean_state/ch314_sea_level/">&raquo;</a>
-    </p>
-	</section>
-	<footer class="post-meta">
-    <time class="post-date">2023-01-10</time>
-	</footer>
-</article>
-
-  
   
 
 <nav class="pagination" role="navigation">
     
-    <span class="page-number">Page 1 of 5</span>
+    <span class="page-number">Page 1 of 6</span>
     
         <a class="older-posts" href="/post/page/2/">다음 글 &rarr;</a>
     

@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -85,8 +108,8 @@
 <h4 id="열염순환">열염순환</h4>
 <p>앞서 살펴본 바다 표층의 수평 방향의 해류와 함께 바닷물은 수직 방향으로도 순환하고 있다. 그린란드와 노르웨이 인근과 남극해의 웨델해와 로스해의 바닷물은 매우 차갑고 염도가 높아 밀도가 상대적으로 높다. 이렇게 밀도가 높은 바닷물은 해저로 침강해서 전세계 바다의 해저로 흘러간다. 이렇게 흘러간 심층수는 아주 천천히 전세계 해안 곳곳에서 상승하며 다시 표면의 해류를 따라 흐른다.</p>
 <ul>
-<li><a href="">전세계 바다의 수온</a></li>
-<li><a href="">전세계 바다의 염분</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch321_increase_temperature/">전세계 바다의 수온</a></li>
+<li><a href="https://Marino89.github.io/post/ocean_state/ch322_world_salinity/">전세계 바다의 염분</a></li>
 </ul>
 <figure>
     <img src="/images/img224_2.jpg" alt=""/>
@@ -139,7 +162,11 @@
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%EB%B0%94%EB%8B%A4%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0/">바다이해하기</a>
+          
+      </section>
     </footer>
   </article>
 </main>

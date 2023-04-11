@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -94,7 +117,7 @@
     
 </figure>
 
-<h4 id="남획은-무엇인가">남획은 무엇인가?</h4>
+<h5 id="남획은-무엇인가">남획은 무엇인가?</h5>
 <p>남획은 물고기 등 해양 생물을 너무 많이 잡아들이는 걸 말한다. 너무 많이 잡는다는 걸 정확히 정의하기는 어렵지만, 물고기 개체군이 유지되지 않고 점점 수가 줄어들 정도로 많이 잡는 걸 남획이라 말할 수 있다. 어선의 크기가 커지고, 어구가 발달하면서 점점 더 한 번에 많은 양의 물고기를 잡을 수 있게 되면서 남획의 위험 또한 커져가고 있다. 또한 먼 바다까지 나가 물고기를 잡는 산업적 규모의 어업이 커져가고 있다.
 양식 어업의 증가 또한 남획을 부추기고 있다. 양식 어업에 사용되는 생사료는 주로 어린 물고기를 잡아 만드는데, 이로 인해 아직 자라지 못한 물고기가 잡히고 있는 실정이다. 어업 과정에서 의도치 않은 혼획 또한 남획으로 이어진다. 혼획은 특히 돌고래, 고래, 바다거북의 개체 수에 큰 영향을 준다.</p>
 <figure>
@@ -105,7 +128,7 @@
     
 </figure>
 
-<h4 id="남획은-어느-정도로-심각한가">남획은 어느 정도로 심각한가?</h4>
+<h5 id="남획은-어느-정도로-심각한가">남획은 어느 정도로 심각한가?</h5>
 <figure>
     <img src="/images/img318_4.png" alt=""/>
     
@@ -125,7 +148,7 @@
     
 </figure>
 
-<h4 id="남획-문제를-해결하기-위해서는-어떤-방법이-필요한가">남획 문제를 해결하기 위해서는 어떤 방법이 필요한가?</h4>
+<h5 id="남획-문제를-해결하기-위해서는-어떤-방법이-필요한가">남획 문제를 해결하기 위해서는 어떤 방법이 필요한가?</h5>
 <p>가장 먼저 파괴적 어업방식을 규제해야 한다. 저인망 어업과 같은 방식은 바다를 긁다시피 하면서 여러 물고기를 잡아들이면서 해양생물의 서식지를 파괴하고, 혼획을 많이 발생시킨다. 이러한 파괴적 어업방식을 규제하는 것과 동시에, 혼획을 막기 위해 어린 물고기가 빠져 나갈 수 있는 그물 또한 사용하도록 하고 있다. 또한 금어 구역과 시기를 정해 특정 시기와 장소에서 어업 활동을 금지하는 방식을 쓰기도 한다. 그 외에도 정해진 물량만 어획할 수 있도록 하거나, 잡을 수 있는 물고기의 최소 크기를 규정하여 어린 물고기를 잡지 않도록 하기도 한다.</p>
 <figure>
     <img src="/images/img318_6.jpg" alt=""/>
@@ -135,10 +158,8 @@
     
 </figure>
 
-<p>[더 읽어보기]</p>
-<ul>
-<li>Our World in Data, Fish and overfishing [https://ourworldindata.org/fish-and-overfishing]</li>
-</ul>
+<p><strong>더 읽어보기</strong></p>
+<p><a href="https://ourworldindata.org/fish-and-overfishing">Our World in Data, Fish and overfishing</a></p>
 <p>[출처]</p>
 <p>[1] 한겨레, 2005-11-16, ‘대서양 대구어장 붕괴사’ [https://www.hani.co.kr/kisa/section-002004000/2005/11/002004000200511161428213.html]</p>
 <p>[2] IPBES, 2019, Global Assessment Report on Biodiversity and Ecosystem Services [https://ipbes.net/global-assessment]</p>
@@ -146,7 +167,11 @@
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%B4%EC%96%91%EC%83%81%ED%83%9C/">해양상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

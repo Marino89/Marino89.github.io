@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -81,13 +104,13 @@
       </section>
     </header>
     <section class="post-content">
-      <h6 id="heading"></h6>
+      <h4 id="heading"></h4>
 <blockquote>
 <p>기후변화로 인해 빙하와 빙상이 녹은 물이 바다로 흘러들고, 해수가 열팽창하면서 해수 전체의 부피가 커지면서 해수면이 상승하고 있다.
 과학적 측정이 시작된 1880년 이후로 세계 평균 해수면은 상승해왔으며, 최근 들어 그 상승 속도가 더욱 빨라지고 있다.
 해수면 상승으로 인한 해안 지역의 침수로 인해 집을 잃은 난민이 대거 발생할 수 있으며, 농경지 등의 침수로 식량 수급에도 문제가 생길 수 있다.</p>
 </blockquote>
-<h4 id="해수면-상승의-정의와-원인">해수면 상승의 정의와 원인</h4>
+<h5 id="해수면-상승의-정의와-원인">해수면 상승의 정의와 원인</h5>
 <figure>
     <img src="/images/img314_2.png" alt=""/>
     
@@ -96,7 +119,7 @@
     
 </figure>
 
-<p>기후변화와 관련된 대표적인 해양 문제로서 언급되는 해수면 상승은 전세계 바다의 수면이 높아지는 현상을 말하며, 그 주된 원인은 지구온난화로 인한 수온의 상승이다. 온난화로 인한 수온상승과 관련된 해수면 상승의 주원인은 크게 두 가지로 볼 수 있다. 해수의 열팽창과 빙하, 빙상의 융해이다. 지난 한 세기동안 세계의 해수면 높이는 평균 20cm 증가했는데, [1] 이 중 1/3은 해수의 열팽창 때문이며, 2/3은 대륙빙하의 융해로 인한 것이다.[2]</p>
+<p>기후변화와 관련된 대표적인 해양 문제로서 언급되는 해수면 상승은 전세계 바다의 수면이 높아지는 현상을 말하며, 그 주된 원인은 지구온난화로 인한 수온의 상승이다. 온난화로 인한 수온상승과 관련된 해수면 상승의 주원인은 크게 두 가지로 볼 수 있다. 해수의 열팽창과 빙하, 빙상의 융해이다. 지난 한 세기동안 세계의 해수면 높이는 평균 20cm 증가했는데,<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 이 중 1/3은 해수의 열팽창 때문이며, 2/3은 대륙빙하의 융해로 인한 것이다.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <h5 id="해수의-열팽창">해수의 열팽창</h5>
 <p>온난화로 인해 과도하게 발생하는 대기 중의 열을 바다가 흡수하면서 바다의 수온이 올라가면, 해수의 부피가 팽창해 해수면이 상승한다.</p>
 <h5 id="빙하와-빙상-융해-증가">빙하와 빙상 융해 증가</h5>
@@ -109,7 +132,7 @@
     
 </figure>
 
-<h4 id="해수면-상승으로-인해-어떤-문제가-발생하는가">해수면 상승으로 인해 어떤 문제가 발생하는가?</h4>
+<h5 id="해수면-상승으로-인해-어떤-문제가-발생하는가">해수면 상승으로 인해 어떤 문제가 발생하는가?</h5>
 <p>해수면 상승으로 인해 물에 잠기는 해안 지역이 생겨나면서, 해안가에 거주하는 수많은 사람들이 거주지를 잃을 수 있다.  완전한 침수 이전에도 허리케인이나 태풍 등의 재해 빈도와 강도가 커지면서 이러한 해안지역 거주지가 더욱 취약해질 가능성이 크다는 점에서도 문제다. 이러한 문제들은 머나먼 미래의 일이거나, 일부 오지에서 나타나는 현상이 아니다. 현재 많은 인구가 거주하며 활발한 경제활동이 이루어지고 있는 도시들에서도 이미 해수면 상승으로 인한 위험 신호가 나타나기 시작했다. 예를 들어, 인도네시아 자카르타는 가장 빠르게 가라앉고 있는 도시로 추정된다. 현재까지 이미 도시의 40%가 물에 잠겼으며, 연간 25cm의 빠른 속도로 가라앉고 있다. 영국 런던, 이탈리아 베니스, 중국 상해, 태국 방콕 등도 해수면 상승으로 인해 가라앉게 될 것으로 예상되고 있다. <br>
 식량과 식용가능한 물의 공급이라는 면에서도 해수면 상승은 큰 위협이 될 수 있다. 해수면 상승으로 인해 바닷물이 대수층으로 흘러들고, 많은 해안가의 농경지들도 범람으로 인해 현재와 같은 수준의 식량공급이 어려워질 수 있다.</p>
 <figure>
@@ -120,8 +143,8 @@
     
 </figure>
 
-<h4 id="해수면-상승에-어떻게-대응해야-하는가">해수면 상승에 어떻게 대응해야 하는가?</h4>
-<p>해수면이 상승하는 것은 주로 빙하와 육지의 빙상이 녹은 물이 바다로 흘러들고 해수가 수온이 높아짐에 따라 열팽창하기 때문이다. 즉, 기후변화로 인한 것이다. 따라서 이에 대한 대비책 또한 기후변화에 대한 일반적인 대책인 온실가스 저감과 적응의 두 방향에서 이루어져야 한다. 온실가스 배출량을 크게 줄인다면 해수면상승을 완전히는 막을 수 없더라도 상승하는 정도를 낮출 수 있을 것으로 예측된다(그림 2). 또한, 온실가스 배출량 저감이라는 근본적인 대책 외에도 당장의 피해를 최소화할 수 있는 홍수 방지 시설 강화, 홍수에 취약한 시설들을 더 높은 지대로 이전하는 등의 적응 대책이 동시에 이루어져야 한다.[3]</p>
+<h5 id="해수면-상승에-어떻게-대응해야-하는가">해수면 상승에 어떻게 대응해야 하는가?</h5>
+<p>해수면이 상승하는 것은 주로 빙하와 육지의 빙상이 녹은 물이 바다로 흘러들고 해수가 수온이 높아짐에 따라 열팽창하기 때문이다. 즉, 기후변화로 인한 것이다. 따라서 이에 대한 대비책 또한 기후변화에 대한 일반적인 대책인 온실가스 저감과 적응의 두 방향에서 이루어져야 한다. 온실가스 배출량을 크게 줄인다면 해수면상승을 완전히는 막을 수 없더라도 상승하는 정도를 낮출 수 있을 것으로 예측된다(그림 2). 또한, 온실가스 배출량 저감이라는 근본적인 대책 외에도 당장의 피해를 최소화할 수 있는 홍수 방지 시설 강화, 홍수에 취약한 시설들을 더 높은 지대로 이전하는 등의 적응 대책이 동시에 이루어져야 한다.<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <figure>
     <img src="/images/img314_5.png" alt=""/>
     
@@ -130,20 +153,36 @@
     
 </figure>
 
+<h4 id="heading-1"></h4>
 <p>[출처]</p>
-<p>[1] <a href="https://climate.nasa.gov/evidence/">https://climate.nasa.gov/evidence/</a></p>
-<p>[2] <a href="https://climate.nasa.gov/quizzes/sea-level-quiz/">https://climate.nasa.gov/quizzes/sea-level-quiz/</a></p>
-<p>[3] <a href="https://www.epa.gov/arc-x/climate-impacts-water-utilities#tab-4">https://www.epa.gov/arc-x/climate-impacts-water-utilities#tab-4</a></p>
 <p>[4] NOAA, Climate.gov [https://www.climate.gov/news-features/
 understanding-climate/climate-change-global-sea-level]</p>
 <p>[5] NOAA, Ocean facts, How is sea level rise related to climate change? [https://oceanservice.noaa.gov/facts/sealevelclimate.html]</p>
 <p>[6] Interesting Engineering, 7 Sinking cities around the World [https://interestingengineering.com/7-sinking-cities-around-the-world]</p>
 <p>[7] NOAA, Climate.gov [https://www.climate.gov/news-features/understanding-climate/climate-change-global-sea-level]</p>
 <p>[8] Bamber, J. L., Oppenheimer, M., Kopp, R. E., Aspinall, W. P., &amp; Cooke, R. M. (2019). Ice sheet contributions to future sea-level rise from structured expert judgment. Proceedings of the National Academy of Sciences, 116(23), 11195-11200. [https://doi.org/10.1073/pnas.1817205116]</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://climate.nasa.gov/evidence/">https://climate.nasa.gov/evidence/</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://climate.nasa.gov/quizzes/sea-level-quiz/">https://climate.nasa.gov/quizzes/sea-level-quiz/</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://www.epa.gov/arc-x/climate-impacts-water-utilities#tab-4">https://www.epa.gov/arc-x/climate-impacts-water-utilities#tab-4</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%B4%EC%96%91%EC%83%81%ED%83%9C/">해양상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

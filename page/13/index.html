@@ -33,6 +33,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="">
@@ -51,15 +74,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -81,7 +104,9 @@
     
         <a class="newer-posts" href="/page/12/">&larr; 이전 글</a>
     
-    <span class="page-number">Page 13 of 13</span>
+    <span class="page-number">Page 13 of 14</span>
+    
+        <a class="older-posts" href="/page/14/">다음 글 &rarr;</a>
     
 </nav>
 
@@ -90,18 +115,80 @@
       <article class="post">
 	<header class="post-header">
     
-      <img src="/images/img230_01.jpg"></img>
+      <img src="/images/img321_1.png"></img>
     
-		<h2 class="post-title"><a href="/post/ocean_learned/ch230_ocean_index/">바다에 대해 알려주는 지표</a></h2>
+		<h2 class="post-title"><a href="/post/ocean_state/ch321_increase_temperature/">수온상승</a></h2>
 	</header>
   <br />
 	<section class="post-excerpt">
     <p>
-      바다의 특성과 상태를 알기 위해서는 여러 지표를 살펴봐야 한다. 수온은 가장 기본적인 지표이다. 해수의 온도는 기후의 변화 뿐 아니라 해양생물의 서식지를 제한하는 중요한 요인 중 하나이다. 염분 또한 중요하다. 염분은 지구 전체의 물순환을 살펴볼 수 있는 지표이다. 또한 온도와 염분에 따라 해수의 밀도가 결정되며 이는 표층바다와 깊은 바다의 섞이는 정도를 결정할 뿐 아니라, 지구 전체를 휘감아 도는 열염순환의 동력이 된다. 용존산소 또한 중요한데, 용존산소량이 일정 이하로 떨어지면 많은 생명체들이 죽음을 당할 수 있다. &hellip; <a class="read-more" href="/post/ocean_learned/ch230_ocean_index/">&raquo;</a>
+      1880년 이래로 매 10년 간 0.3도씩 전세계 바다의 표층 수온이 상승했다.
+수온상승, 어느 정도인가? 왜 상승하고 있나? 전세계 바다의 평균 수온은 점점 상승하고 있다. 지구온난화로 인해 지구에 갇힌 열의 대부분을 바다가 흡수하면서, 바다의 온도는 빠르게 올라가고 있다. 세계 해양의 표층 수온은 지난 100년간 10년마다 0.3도씩 지속적으로 증가해왔다. 특히 지난 30년 간의 표층 수온은 신뢰도 높은 관측이 시작된 1880년 이후로 가장 높은 값을 보여줬다[1].
+모든 해역에서 수온이 균일하게 증가했나? 해양 표면 수온 평균의 변화(1901-2020) 출처: https://www. &hellip; <a class="read-more" href="/post/ocean_state/ch321_increase_temperature/">&raquo;</a>
     </p>
 	</section>
 	<footer class="post-meta">
-    <time class="post-date">2023-01-03</time>
+    <time class="post-date">2023-01-10</time>
+	</footer>
+</article>
+
+		
+      <article class="post">
+	<header class="post-header">
+    
+      <img src="/images/img322_1.png"></img>
+    
+		<h2 class="post-title"><a href="/post/ocean_state/ch322_world_salinity/">세계 해양의 염분 분포</a></h2>
+	</header>
+  <br />
+	<section class="post-excerpt">
+    <p>
+      전세계 바다의 평균 염분 농도는 psu 단위로 35 정도이며, 해역에 따라 차이가 나타난다.[염분이란?] 일반적으로 외해와 연안의 염분 분포는 서로 다른 양상을 보인다. 육지로부터의 직접적 영향이 더 큰 연안이나 반폐쇄된 해역의 경우 하천으로부터의 담수 유입 등의 변수로 인해 염도의 범위가 대략 0~40 으로 넓은 편인 반면, 외양의 경우 보통 34~37 의 좁은 범위 내에서의 분포를 보인다.
+해역별로 염분 농도가 다른 이유: 강수, 증발, 결빙, 육지로부터의 유입 해역별로 염도에 차이가 나타나는 이유는 염 이온 자체의 증가나 감소보다는 담수의 유입과 유출량에 달려있다. &hellip; <a class="read-more" href="/post/ocean_state/ch322_world_salinity/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2023-01-10</time>
+	</footer>
+</article>
+
+		
+      <article class="post">
+	<header class="post-header">
+    
+      <img src="/images/img323_1.png"></img>
+    
+		<h2 class="post-title"><a href="/post/ocean_state/ch323_world_oxygen/">용존산소</a></h2>
+	</header>
+  <br />
+	<section class="post-excerpt">
+    <p>
+      세계의 바다에서 산소가 줄어들고 있다. 지난 20세기 중반부터 현재까지 세계의 외해와 연안 모두에서 용존산소가 줄어들었다. 해역별 차이는 있으나, 평균적으로 1950년 이래로 전세계 해역에서 용존산소가 약 2% 줄어들었다. 완전히 산소가 고갈된 해역의 면적은 1960년에 비해 현재 4배 넓어졌다.1 1960년대부터 현재까지 외해에서 저산소인 바다의 면적은 450만 km2 증가했고, 하구와 다른 연안 수역에서는 500개 이상의 해역이 저산소 상태인 것으로 확인되었다. 2
+바다의 어느 부분에서 특히 용존산소가 줄어들었나? 용존산소의 감소는 열대와 북태평양, 남대서양, 남극해, 북극해의 수심 100-300m 층에서 가장 큰 것으로 나타났다. &hellip; <a class="read-more" href="/post/ocean_state/ch323_world_oxygen/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2023-01-10</time>
+	</footer>
+</article>
+
+		
+      <article class="post">
+	<header class="post-header">
+    
+      <img src="/images/img324_1.png"></img>
+    
+		<h2 class="post-title"><a href="/post/ocean_state/ch324_world_ph/">세계 해양의 지표 - pH</a></h2>
+	</header>
+  <br />
+	<section class="post-excerpt">
+    <p>
+      전세계 바다의 평균 pH는 8.1 정도이다. 산업시대 이전의 평균 pH에 비해 0.1 정도 하락하였으며, 이는 약 30% 정도 산성화되었다는 것을 뜻한다.
+전세계 바다의 pH 바다는 바닷물 속에 녹아있는 여러 염이온의 영향으로 약한 알칼리를 띠고 있다. 현재 바다의 평균 pH는 약 8.1로 산업화시대 이전의 평균 8.2에 비해서 0.1 정도 떨어진 상태이다. 그러나 이는 수소 이온 농도가 30% 증가한 수준이다. [2-3-4. pH 참고] pH는 염도와 온도, 담수의 유입 등의 영향을 받지만, 복잡한 화학적, 생물학적 완충 효과로 인해 그렇게 큰 차이를 나타내지는 않는다. &hellip; <a class="read-more" href="/post/ocean_state/ch324_world_ph/">&raquo;</a>
+    </p>
+	</section>
+	<footer class="post-meta">
+    <time class="post-date">2023-01-10</time>
 	</footer>
 </article>
 
@@ -112,7 +199,9 @@
     
         <a class="newer-posts" href="/page/12/">&larr; 이전 글</a>
     
-    <span class="page-number">Page 13 of 13</span>
+    <span class="page-number">Page 13 of 14</span>
+    
+        <a class="older-posts" href="/page/14/">다음 글 &rarr;</a>
     
 </nav>
 

@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -82,22 +105,26 @@
     </header>
     <section class="post-content">
       <h4 id="heading"></h4>
-<br>
 <p>세계 평균에 비해 우리나라 인근 바다의 해수면 상승이 더 빠르게 진행되고 있다. 세계 평균은 한 해에 1.8mm씩 증가하는 데 비해 우리나라 바다는 평균 2.74mm 정도 상승하고 있다. 남해안이 가장 빠르게 증가해서 한 해에 3.23mm씩 수면이 높아지고 있다. 다음으로는 동해가 3.06mm, 서해가 1.23mm씩 매년 증가하고 있다. 구체적으로 보면 제주도 인근 바다의 수위가 빠르게 증가하는 중이다. 이러한 지역별 차이의 원인은 정확히 밝혀지지 않았다.</p>
 <p>해양수산부 산하 국립해양조사원은 매년 12월 전년도까지의 해수면 관측 자료를 토대로 장기 (30년) 해수면 변동을 조사한 결과를 발표한다. 2021년 발표한 1991~2020년 분석자료를 살펴보면, 최근 10년 간 해수면상승 속도가 빨라지고 있음을 알 수 있다. 1991-2000년 연 3.80mm 상승하던 것에 비해 2011-2020년 사이에 연 4.27mm 상승하면서 약 10% 이상 상승 속도가 빨라졌다.</p>
-<p>[출처]
-국립해양조사원 누리집(<a href="http://www.khoa.go.kr/">http://www.khoa.go.kr/</a>) &gt; 보도자료 “우리나라 해수면 지난 30년 동안 평균 9.1cm 높아져” (21.12.20)</p>
-<h5 id="기후변화와-우리나라-인근-바다의-변화">기후변화와 우리나라 인근 바다의 변화</h5>
-<ul>
-<li><a href="">수온</a></li>
-<li><a href="">용존산소</a></li>
-<li><a href="">염분</a></li>
-<li><a href="">pH</a></li>
-</ul>
+<div style="text-align: center;">
+<h4 id="기후변화와-우리나라-인근-바다의-변화httpsmarino89githubiopostkorean_statech410_regional_changes"><a href="https://Marino89.github.io/post/korean_state/ch410_regional_changes/">기후변화와 우리나라 인근 바다의 변화</a></h4>
+<p><a href="https://Marino89.github.io/post/korean_state/ch411_temperature/">수온</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch412_oxygen/">용존산소</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch413_salinity/">염분</a></p>
+<p><a href="https://Marino89.github.io/post/korean_state/ch414_ph/">pH</a></p>
+</div>
+<br>
+<p><strong>출 처</strong></p>
+<p>국립해양조사원 누리집(<a href="http://www.khoa.go.kr/)">http://www.khoa.go.kr/)</a>: 보도자료 “우리나라 해수면 지난 30년 동안 평균 9.1cm 높아져” (21.12.20)</p>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%9C%EA%B5%AD%EC%97%B0%EA%B7%BC%ED%95%B4%EC%83%81%ED%83%9C/">한국연근해상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>

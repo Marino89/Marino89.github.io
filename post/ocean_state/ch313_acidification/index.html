@@ -31,6 +31,29 @@
     </script>
     
     
+
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$','$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+        }
+      };
+    
+      window.addEventListener('load', (event) => {
+          document.querySelectorAll("mjx-container").forEach(function(x){
+            x.parentElement.classList += 'has-jax'})
+        });
+    
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
     <body class="post-template">
@@ -49,15 +72,15 @@
 	<div class="nav">
     
 		
-      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">바다와 인간</a>
+      <a class="nav- " role="presentation" href="/post/intro/ch000_intro/">들어가며</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_human/ch100_ocean_human/">바다와 인간사회</a>
 		
-      <a class="nav- " role="presentation" href="/about/">About</a>
-		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국 연근해 상태</a>
+      <a class="nav- " role="presentation" href="/about/">About</a>
+		
+      <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
@@ -87,8 +110,6 @@
 바닷물의 산성화는 바다에 사는 생물들의 생존과 생식을 위협한다.
 바닷물의 산성화 문제를 해결하기 위해서는 기후변화 완화가 필수적이다.</p>
 </blockquote>
-<h4 id="바다의-산성화는-왜-일어나고-있는가">바다의 산성화는 왜 일어나고 있는가?</h4>
-<p><br>
 <figure>
     <img src="/images/img313_2.jpg" alt=""/>
     
@@ -96,10 +117,11 @@
     
     
 </figure>
-</p>
-<p>대기 중 이산화탄소를 바다가 흡수하기 때문이다. 바다는 산업혁명 이후로 급격히 늘어난 대기 중 이산화탄소를 흡수해왔다. 산업혁명 전의 대기 중 이산화탄소 농도는 278 ppm이었지만 2020년의 평균농도는 412.5 ppm으로 증가했다. 산업혁명이 시작된 이후로 바다로 흡수된 이산화탄소의 양은 자그마치 5250억 톤으로 추정된다. [1]
-대기 중에 이산화탄소가 증가하면 대기와 바다의 이산화탄소 농도 평형이 다시 맞춰질 때 까지 대기 중 이산화탄소가 바다로 녹아든다. 바다에 녹아든 이산화탄소가 물과 결합하여 형성된 탄산(H2CO3)는 다시 수소이온(H+)과 중탄산염(HCO3-)으로 쪼개져, 결과적으로 해수의 수소이온 농도가 증가하게 된다. 즉, 산성도가 증가하게 된다. 이렇게 증가한 수소이온은 산호와 갑각류 등 일부 해양 생물들이 껍데기 형성을 위해 필요로 하는 탄산염(carbonate ions)과 반응하여 중탄산염을 형성한다(참조 <a href="">pH 지표</a>).</p>
-<h4 id="해양의-산성화는-왜-문제인가">해양의 산성화는 왜 문제인가?</h4>
+
+<h5 id="바다의-산성화는-왜-일어나고-있는가">바다의 산성화는 왜 일어나고 있는가?</h5>
+<p>대기 중 이산화탄소를 바다가 흡수하기 때문이다. 바다는 산업혁명 이후로 급격히 늘어난 대기 중 이산화탄소를 흡수해왔다. 산업혁명 전의 대기 중 이산화탄소 농도는 278 ppm이었지만 2020년의 평균농도는 412.5 ppm으로 증가했다. 산업혁명이 시작된 이후로 바다로 흡수된 이산화탄소의 양은 자그마치 5250억 톤으로 추정된다.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+대기 중에 이산화탄소가 증가하면 대기와 바다의 이산화탄소 농도 평형이 다시 맞춰질 때 까지 대기 중 이산화탄소가 바다로 녹아든다. 바다에 녹아든 이산화탄소가 물과 결합하여 형성된 탄산($H_{2}CO_{3}$)는 다시 수소이온($H^{+}$)과 중탄산염($HCO_{3}^-$)으로 쪼개져, 결과적으로 해수의 수소이온 농도가 증가하게 된다. 즉, 산성도가 증가하게 된다. 이렇게 증가한 수소이온은 산호와 갑각류 등 일부 해양 생물들이 껍데기 형성을 위해 필요로 하는 탄산염(carbonate ions)과 반응하여 중탄산염을 형성한다(참조 <a href="https://Marino89.github.io/post/ocean_learned/ch234_index_ph/">pH 지표</a>).</p>
+<h5 id="해양의-산성화는-왜-문제인가">해양의 산성화는 왜 문제인가?</h5>
 <p>바다가 인간이 만들어낸 이산화탄소를 대량 흡수한다는 점은 좋은 작용으로 보일 수도 있다. 그러나 이산화탄소가 해수에 녹으며 해수가 급격히 산성화됨에 따라, 여러 문제가 발생할 수 있다. 앞서 살펴본 대로 산호뿐만 아니라 조개와 같은 패류는 바닷물 속의 탄산염을 사용해 탄산칼슘을 합성하여 몸의 골격이나 껍질을 만드는데, 해양이 산성화되면 바닷물 속 탄산염이 줄어든다. 이 때문에 해양생물의 골격이나 껍질을 만드는 과정이 방해를 받아 해양생물의 발달이 어려워진다. 또한 많은 해양생물의 서식처인 산호초 또한 해양산성화로 인해 위협에 처하고 있다.</p>
 <figure>
     <img src="/images/img313_3.png" alt=""/>
@@ -109,19 +131,30 @@
     
 </figure>
 
-<h4 id="어느-정도로-심한가">어느 정도로 심한가?</h4>
-<p>산업혁명 이후 대기 중 이산화탄소가 급격히 늘어나면서, 불과 200여년 사이에 해수 표면의 산성도는 30% 증가했다(0.1pH하락). 이는 지난 50000만 년 간 의 변화 중 가장 빠른 속도이다. 해수의 pH의 평균은 8.2로 알려져 있다. 과학자들은 인류가 이대로 이산화탄소 배출량을 줄이지 못한 채로 이번 세기 후반부에 이르면, pH가 7.8까지 내려갈 수도 있다고 예측하고 있다. 이는 14~17백 만 년 전의 중신세(Miocene) 중기 이후로는 나타나지 않았던 수준의 산성도다. [2]</p>
-<p>[더 읽어보기]</p>
-<ul>
-<li>한국해양과학기술원, 해양산성화란? [https://kiost.ac.kr/cop/bbs/BBSMSTR_000000000011/selectBoardArticle.do;jsessionid=FF68EA4C1BE1B100066D57EAAD50C68E?nttId=16851&amp;pageIndex=3&amp;searchCnd=&amp;searchWrd]</li>
-</ul>
-<p>[출처]</p>
-<p>[1] The Smithsonian Institution, Ocean acidification [https://ocean.si.edu/ocean-life/invertebrates/ocean-acidification]</p>
-<p>[2] NOAA, Ocean acidification [https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification]</p>
+<h5 id="어느-정도로-심한가">어느 정도로 심한가?</h5>
+<p>산업혁명 이후 대기 중 이산화탄소가 급격히 늘어나면서, 불과 200여년 사이에 해수 표면의 산성도는 30% 증가했다(0.1pH 하락). 이는 지난 50000만 년 간 의 변화 중 가장 빠른 속도이다. 해수의 pH의 평균은 8.2로 알려져 있다. 과학자들은 인류가 이대로 이산화탄소 배출량을 줄이지 못한 채로 이번 세기 후반부에 이르면, pH가 7.8까지 내려갈 수도 있다고 예측하고 있다. 이는 14~17백 만 년 전의 중신세(Miocene) 중기 이후로는 나타나지 않았던 수준의 산성도다.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h4 id="heading-1"></h4>
+<p><strong>더 읽어보기</strong></p>
+<p><a href="https://kiost.ac.kr/cop/bbs/BBSMSTR_000000000011/selectBoardArticle.do;jsessionid=FF68EA4C1BE1B100066D57EAAD50C68E?nttId=16851&amp;pageIndex=3&amp;searchCnd=&amp;searchWrd">한국해양과학기술원, 해양산성화란?</a></p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The Smithsonian Institution, Ocean acidification [https://ocean.si.edu/ocean-life/invertebrates/ocean-acidification]&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>NOAA, Ocean acidification [https://www.noaa.gov/education/resource-collections/ocean-coasts/ocean-acidification]&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
 
     </section>
     <footer class="post-footer">
-      
+      <section class="tags post-meta">
+        Tagged
+        <a href="https://Marino89.github.io/tags/%ED%95%B4%EC%96%91%EC%83%81%ED%83%9C/">해양상태</a>
+          
+      </section>
     </footer>
   </article>
 </main>
