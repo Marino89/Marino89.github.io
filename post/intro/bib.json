@@ -1,0 +1,32 @@
+[
+  {
+    "DOI": "10.1093/mind/LIX.236.433",
+    "author": [
+      {
+	"family": "Turing",
+	"given": "A. M."
+      }
+    ],
+    "container-title": "Mind",
+    "id": "Turing1950",
+    "issue": "236",
+    "issued": {
+      "date-parts": [
+	[
+	  1950,
+	  10
+	]
+      ]
+    },
+    "page": "433-460",
+    "title": "I.—Computing Machinery and Intelligence",
+    "type": "article-journal",
+    "volume": "LIX"
+  },
+  {
+    "id": "fao_zhc",
+    "URL": {
+      "type": "http://www.fao.org/zhc/detail-events/en/c/846698/"
+    }
+  }
+]
