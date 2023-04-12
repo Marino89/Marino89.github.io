@@ -1,0 +1,36 @@
+[
+  {
+    "DOI": "10.1146/annurev.marine.010908.163855",
+    "URL": " \n    \n        https://doi.org/10.1146/annurev.marine.010908.163855\n    \n    \n\n",
+    "abstract": "Ocean warming and increased stratification of the upper ocean caused by global climate change will likely lead to declines in dissolved O2 in the ocean interior (ocean deoxygenation) with implications for ocean productivity, nutrient cycling, carbon cycling, and marine habitat. Ocean models predict declines of 1 to 7% in the global ocean O2 inventory over the next century, with declines continuing for a thousand years or more into the future. An important consequence may be an expansion in the area and volume of so-called oxygen minimum zones, where O2 levels are too low to support many macrofauna and profound changes in biogeochemical cycling occur. Significant deoxygenation has occurred over the past 50 years in the North Pacific and tropical oceans, suggesting larger changes are looming. The potential for larger O2 declines in the future suggests the need for an improved observing system for tracking ocean O2 changes.",
+    "author": [
+      {
+        "family": "Keeling",
+        "given": "Ralph F."
+      },
+      {
+        "family": "Körtzinger",
+        "given": "Arne"
+      },
+      {
+        "family": "Gruber",
+        "given": "Nicolas"
+      }
+    ],
+    "container-title": "Annual Review of Marine Science",
+    "id": "doi:10.1146/annurev.marine.010908.163855",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "note": "PMID: 21141663",
+    "page": "199-229",
+    "title": "Ocean deoxygenation in a warming world",
+    "type": "article-journal",
+    "volume": "2"
+  }
+]

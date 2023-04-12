@@ -1,0 +1,45 @@
+[
+  {
+    "DOI": "https://doi.org/10.1016/j.jmarsys.2004.08.001",
+    "ISSN": "0924-7963",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S092479630400243X",
+    "abstract": "The changes in the environmental features of the Yellow Sea during the last 25 years of the 20th century were studied using a set of seasonally monitored data along a transect (at 36°N) maintained by the State Oceanic Administration of China. The data included the ocean temperature (T), salinity (S) and biogenic elements, such as dissolved oxygen (DO), phosphorus (PO4-P), silicon (SiO3-Si) and dissolved inorganic nitrogen (DIN). The seasonal (summer and winter) values and the annual mean of these elements showed significant changes during the monitored period. Time series of T, S, DIN and N:P ratios exhibited positive trends, while those of DO, P and Si exhibited negative trends. During this period, the annual mean of T and DIN in the Yellow Sea increased by 1.7 °C and 2.95 μmol L−1, respectively, while those of DO, P and Si decreased by 59.1, 0.1 and 3.93 μmol L−1, respectively. In the 1980s, particularly in between 1985 and 1989, concentrations of P and Si dropped to near the ecological threshold for growth of diatoms. The N:P ratio increased from 4 in 1984 to over 16 in 2000. The climate trend coefficients, Rxt, for these time series are all above 0.43 with significance levels of 95",
+    "author": [
+      {
+        "family": "Lin",
+        "given": "C."
+      },
+      {
+        "family": "Ning",
+        "given": "X."
+      },
+      {
+        "family": "Su",
+        "given": "J."
+      },
+      {
+        "family": "Lin",
+        "given": "Y."
+      },
+      {
+        "family": "Xu",
+        "given": "B."
+      }
+    ],
+    "container-title": "Journal of Marine Systems",
+    "id": "LIN2005223",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "keyword": "Environmental changes, Responses of ecosystems, Yellow Sea",
+    "page": "223-234",
+    "title": "Environmental changes and the responses of the ecosystems of the yellow sea during 1976–2000",
+    "type": "article-journal",
+    "volume": "55"
+  }
+]
