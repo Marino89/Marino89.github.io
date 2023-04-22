@@ -95,11 +95,11 @@
 		
       <a class="nav- " role="presentation" href="/post/ocean_learned/ch200_ocean_learn/">바다 이해하기</a>
 		
-      <a class="nav- nav-current" role="presentation" href="/about/">About</a>
+      <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
 		
       <a class="nav- " role="presentation" href="/post/korean_state/ch400_korea_state/">한국연근해 상태</a>
 		
-      <a class="nav- " role="presentation" href="/post/ocean_state/ch300_ocean_state/">해양의 상태</a>
+      <a class="nav- nav-current" role="presentation" href="/about/">About</a>
 		
 	</div>
 	
@@ -113,17 +113,218 @@
     </header>
     <br />
     <section class="post-content">
-      <p>Hugo is the <strong>world’s fastest framework for building websites</strong>. It is written in Go.</p>
-<p>It makes use of a variety of open source projects including:</p>
-<ul>
-<li><a href="https://github.com/russross/blackfriday">https://github.com/russross/blackfriday</a></li>
-<li><a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a></li>
-<li><a href="https://github.com/muesli/smartcrop">https://github.com/muesli/smartcrop</a></li>
-<li><a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra</a></li>
-<li><a href="https://github.com/spf13/viper">https://github.com/spf13/viper</a></li>
-</ul>
-<p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
-<p>테스트</p>
+      <section id="about_author">
+ <div class="author__container">
+        <img src="/images/sinjaeyoo1.jpg" alt="Sinjae Yoo's avatar" class="author__avatar">
+        <p style="text-align: center" class="author__description">대표저자 유신재</p>
+        <h4>미국 뉴요크 주립대에서 생태·진화생물학 박사학위를 받았고 1988년 이래 한국해양과학기술원에서 근무하였다. 북태평양 해양과학기구 과학평의회 의장을 역임하고 현재 국제해양과학연구회(SCOR) 의장을 맡고 있다. 환경변화가 부유생물 군집구조와 생산력에 미치는 영향을 연구하고 있다.</h4>
+       <p style="text-align: center" class="author__description">공저자 유채원</p>
+        <h4>서울대학교 환경대학원에서 석사학위를 받았고 스웨덴 룬드 대학교에서 인문지리학 석사과정을 밟고 있다. 생태계와 사회의 상호작용을 섬세하게 들여다보고 연구하여, 이를 시민들에게 전달하는 활동에 관심을 두고 있다.</h4>
+        <p style="text-align: center" class="author__description">공저자 김민재</p>
+        <h4>서울대 지구환경시스템공학부를 졸업한 후 사회학과에서 석사학위를 받았다. 주요 관심 분야는 환경운동, 환경문제와 과학기술의 관계 등이다. 공저로 ‘굿바이 미세먼지’(2017), ‘생태전환을 꿈꾸는 사람들’(2023), ‘Air pollution governance in East Asia’(2022)가 있다.</h4>
+ </div>
+</section>
+<style>
+    :root {
+         
+        --color-white: #ffffff;
+        --color-light-white: #eeeeee;
+        --color-dark-white: #bdbdbd;
+        --color-pink: #fe918d;
+        --color-dark-pink: #ff6863;
+        --color-black: #4d4d4d;
+        --color-dark-grey: #4d4d4d;
+        --color-grey: #616161;
+        --color-light-grey: #7c7979;
+        --color-blue: #73aace;
+        --color-yellow: #fff7d1;
+        --color-orange: #feb546;
+        --color-black: #000000;
+    
+         
+        --font-large: 48px;
+        --font-medium: 26px;
+        --font-regular: 18px;
+        --font-small: 16px;
+        --font-micro: 14px;
+    
+         
+        --weight-bold: 700;
+        --weight-semi-bold: 600;
+        --weight-regular: 400;
+    
+         
+        --font-style: italic;
+    
+         
+        --size-border-radius: 4px;
+    
+         
+        --animation-duration: 300ms;
+    }
+
+     
+h1 {
+    font-size: var(--font-large);
+    font-weight: var(--weight-bold);
+    color: var(--color-black);
+    margin: 16px 0;
+
+}
+
+
+h2 {
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    color: var(--color-black);
+    margin: 8px 0;
+}
+
+h3 {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-regular);
+    color: var(--color-black);
+    margin: 8px 0;
+}
+
+h4 {
+    font-size: var(--font-small);
+    font-weight: var(--weight-regular);
+    color: var(--color-black);
+    margin: 4px 0;
+}
+
+p {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-regular);
+    color: var(--color-black);
+    margin: 4px 0;
+}
+
+     
+#about_author {
+    background: url("imgs/home_background.png") center/cover no-repeat;
+    padding: 20px;
+    padding-top: 60x;
+    text-align: center;
+}
+
+.author__avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.author__description {
+    color: var(--color-orange)
+}
+
+.author__contact {
+    color: var(--color-white);
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+    margin: 24px;
+    padding: 8px 12px;
+    border: 2px solid var(--color-white);
+    border-radius: var(--size-border-radius);
+}
+
+.author__contact:hover {
+    background-color: var(--color-orange);
+}
+
+ 
+.section {
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+.author__container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+</style>
+<section id="testimonials" class="section">
+    <div class="author__container">
+        <h2>추천사</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                
+                <div class="testimonial__speech-bubble">
+                    <p class="comment">
+                        "해양학자들은 우리의 바다가 겪고 있는 문제는 무엇이며 그 해결방법은 무엇인지를 찾기 위해 오랜 세월 연구를 해왔다. 
+                        하지만 결국 그 해결의 열쇠는 연구자가 아닌 일반시민들에게 있다고 할 수 있다. 해양학자들의 역할은 일반시민들의 길잡이라 생각한다. 
+                        그런 점에서 ‘모두를 위한 해양리터러시’는 한 평생 해양연구의 길을 걸어온 저자가 일반시민들에게 바다에 숨겨진 웅장하고 복잡한 내면을 쉽게 이해할 수 있는 길잡이가 될 것이다. 
+                        특히 최근의 해양데이터를 분석하여 우리나라의 해양상태를 해양학자의 시선으로 설명한 것은 교과서의 틀을 벗어난 웹블로그이기에 가능한 시도일 것이다. 
+                        디지털 시대에 걸맞게 책이 아니라 웹블로그 형식을 빌어 일반시민 뿐만 아니라 청소년들이 해양소양에 좀더 쉽게 다가갈 수 있도록 했다는 점 또한 신선하게 다가온다. 
+                        우리나라처럼 단편적이고 가십만 난무한 웹 환경에서 우리 모두를 위한 소중한 해양 길잡이가 될 것을 기대한다."
+                    </p>
+                    <p class="name">강동진 / 한국해양학회장 </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</section>
+
+<style>
+     
+    * {
+        box-sizing: border-box;
+    }
+    #testimonials {
+        background-color: var(--color-white);
+        padding-right: 0;
+        padding-left: 0;
+        padding: 15px;
+    }
+
+    .testimonials {
+        margin: 20px 0;
+    }
+    
+    .testimonial {
+        display: flex;
+        margin: 5px 0px;
+    
+    }
+    
+    .testimonial_blank {
+        width: 30px;
+        height: 150px;
+    }
+    .testimonial_avatar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    
+    
+    .testimonial__speech-bubble {
+        padding: 5px 5px;
+        background-color: var(--color-white);
+        border-radius: var(--size-border-radius);
+    
+    }
+    
+    .testimonial__speech-bubble p{
+        color: var(--color--grey);
+    }
+    
+    .testimonial__speech-bubble p.comment{
+        color: var(--color-light-grey);
+        font-style: var(--font-style);
+    }
+    
+    .testimonial__speech-bubble p.name{
+        font-family: "Lato", sans-serif;
+        color: var(--color-dark-grey);
+    }
+</style>
 
     </section>
   </article>

@@ -91,7 +91,7 @@
       
       <guid>https://Marino89.github.io/post/ocean_human/ch130_impact_of_human/</guid>
       <description>바다의 변화와 인간 활동은 상관이 있는가? 인간 사회는 바다에 의해 영향을 받을 뿐 아니라, 역으로 다양한 경로를 통해 바다에 큰 영향을 미치고 있다. 바다에서의 직접적인 활동은 물론, 육상에서의 인간 활동 또한 간접적으로 바다에 영향을 준다. 남획, 서식지 파괴, 오염물질 방출, 외래종의 도입 등이 이러한 영향에 해당한다. 또한, 보다 복잡하고 장기적이면서 가장 중요한 영향으로 인간에 의한 기후변화 문제가 대두되고 있다.
-인간이 바다에 미치는 영향의 종류 탄소 배출: 수온 상승과 바다의 산성화를 초래함 플라스틱을 포함한 쓰레기의 유입: 크고 작은 쓰레기들은 해양생물을 직접적으로 위협할 뿐 아니라 미세플라스틱은 생리적으로도 해양생물에 해를 끼침.</description>
+인간이 바다에 미치는 영향의 종류 탄소 배출: 수온 상승과 바다의 산성화를 초래함 플라스틱을 포함한 쓰레기의 유입: 크고 작은 쓰레기들은 해양생물을 직접적으로 위협할 뿐 아니라 미세플라스틱은 생리적으로도 해양생물에 해를 끼치며 전세계적인 문제가 되고 있음 화학물질 방출로 인한 오염: 산업생산에서 만들어진 화학물질과 아스팔트 등을 이루는 화학물질들(지표면 유출)이 바다로 흘러들어가고 바다 생물에 영향을 미침 남획과 파괴적 어업: 특히 대규모 어업회사들의 남획으로 인해 지역의 어족자원이 고갈되고 있으며 또한 원래 어업의 목표가 아닌 어종이 부수적으로 죽는 혼획 등으로 생물다양성을 해치게 됨 부영양화: 농업 비료가 물로 흘러들어가 부영양화를 초래하고 온난화로 인한 바닷물 수온 상승으로 인한 효과가 더해져 부영양화가 더 심하게 나타남.</description>
     </item>
     
     <item>
@@ -262,15 +262,134 @@ COD는 왜 중요한 지표인가? 연안에서는 강물이나 지하수를 통
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://Marino89.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <title>전 세계 해양의 상태</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch300_ocean_state/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://Marino89.github.io/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
-https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.
-테스트</description>
+      <guid>https://Marino89.github.io/post/ocean_state/ch300_ocean_state/</guid>
+      <description>지금 바다의 상태는 빠르게 변하고 있다. 바다는 지금까지 누적된 인간의 활동으로 인해 여러 문제가 발생하고 있다. 기후변화로 인해 수온 상승, 해수면 상승, 빈산소화, 산성화 같은 문제가 대두되고 있다. 오랫동안 바다에 버려온 폐기물은 유해조류 대번식과 미세플라스틱 및 독성물질로 우리에게 돌아오고 있다. 지나친 연안 개발과 남획으로 해양생태계는 커다란 교란에 직면해있다. 전세계 해양의 주요 지표 또한 적색 경고를 내고 있다. 이를 측정하고 추적하는 해양과학자들은 더 늦기 전에 바다를 지켜야 한다고 경고하고 있다.</description>
+    </item>
+    
+    <item>
+      <title>전 세계 해양이 겪고 있는 대표적 문제들</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch310_ocean_problems/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch310_ocean_problems/</guid>
+      <description>바다는 지금 다양한 문제에 직면해있다. 인간은 바다가 무한한 마냥 바다를 이용해왔지만, 인간의 여러 활동이 누적되면서, 바다도 여러 이상신호를 보내고 있다. 인간이 대기 중으로 뿜어낸 이산화탄소가 바다로 대량 흡수되면서 바다는 점차 산성화되고 있다. 인위적 기후변화로 인해 지구에 추가로 축적된 열의 대부분을 바다가 흡수하면서 바다가 점차 따뜻해지고 있기도 하다. 이렇게 바다 수온이 상승하면서 전세계 바다에 녹아있는 산소량이 줄어들고 있다. 몇몇 해역에서는 부영양화로 인해 유해조류가 대번식하고 사멸하면서 산소가 고갈되고 많은 바다생물이 죽는 사태도 점점 더 자주 벌어지고 있다.</description>
+    </item>
+    
+    <item>
+      <title>수온상승</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch311_warming/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch311_warming/</guid>
+      <description>인간 활동에 의해 대기 중 온실가스 농도가 증가하고, 이로 인해 누적된 대기 중의 열을 바다가 흡수하면서 바다가 더워지고 있다. 해양의 온난화는 표층뿐 아니라 심층에서도 일어나고 있으며, 이로 인해 해수와 해양 생태계 전체에 큰 변화가 있을 것으로 예상된다. 수온상승은 온도에 민감한 해양 생물의 생존에 악영향을 끼치며, 생물의 이동과 생식에도 영향을 주어 해양생물의 분포를 바꾸고 있다.. 수온상승은 표층 바다와 심층 바다의 순환을 교란할 수 있다. 이는 바다 생태계 전반에 악영향을 주며, 기후와 어업에도 큰 변화를 가져올 수 있다.</description>
+    </item>
+    
+    <item>
+      <title>빈산소화</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch312_hypoxia/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch312_hypoxia/</guid>
+      <description>기후변화와 부영양화로 인해 바다의 용존산소가 줄어드는 빈산소화가 심화되고 있다. 특히 기후변화로 인한 수온상승은 해수의 산소 용해도를 낮추고 표층수와 저층수 간 순환을 저해시켜 빈산소화를 심화시킨다. 부영양화가 일어나면 조류가 대량증식하고, 이들이 호흡하고 분해되는 과정에서 산소가 사용되어 바닷물 속의 용존산소가 크게 줄어든다. 빈산소화의 심화는 해양 생물들의 생존에 직접적인 위협이 되며, 이들의 생식과 성장에도 영향을 미친다. 결과적으로 생태계 전체 차원에서도 큰 불안정을 야기할 수 있다.
+2007년 가을 발트해 저층수의 용존산소 값을 토대로 추정한 빈산소 및 무산소 영역 (발트해는 북유럽에 위치한 바다로, 스칸디나비아반도와 동유럽으로 둘러싸여 있다.</description>
+    </item>
+    
+    <item>
+      <title>산성화</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch313_acidification/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch313_acidification/</guid>
+      <description>인위적인 이산화탄소의 증가로 인해 바닷물이 점차 산성화되고 있다. 바닷물의 산성화는 바다에 사는 생물들의 생존과 생식을 위협한다. 바닷물의 산성화 문제를 해결하기 위해서는 기후변화 완화가 필수적이다.
+ⓒ 유채원
+바다의 산성화는 왜 일어나고 있는가? 대기 중 이산화탄소를 바다가 흡수하기 때문이다. 바다는 산업혁명 이후로 급격히 늘어난 대기 중 이산화탄소를 흡수해왔다. 산업혁명 전의 대기 중 이산화탄소 농도는 278 ppm이었지만 2020년의 평균농도는 412.5 ppm으로 증가했다. 산업혁명이 시작된 이후로 바다로 흡수된 이산화탄소의 양은 자그마치 5250억 톤으로 추정된다.</description>
+    </item>
+    
+    <item>
+      <title>해수면 상승</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch314_sea_level/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch314_sea_level/</guid>
+      <description>기후변화로 인해 빙하와 빙상이 녹은 물이 바다로 흘러들고, 해수가 열팽창하면서 해수 전체의 부피가 커지면서 해수면이 상승하고 있다. 과학적 측정이 시작된 1880년 이후로 세계 평균 해수면은 상승해왔으며, 최근 들어 그 상승 속도가 더욱 빨라지고 있다. 해수면 상승으로 인한 해안 지역의 침수로 인해 집을 잃은 난민이 대거 발생할 수 있으며, 농경지 등의 침수로 식량 수급에도 문제가 생길 수 있다.
+해수면 상승의 정의와 원인 ⓒ 유채원
+기후변화와 관련된 대표적인 해양 문제로서 언급되는 해수면 상승은 전세계 바다의 수면이 높아지는 현상을 말하며, 그 주된 원인은 지구온난화로 인한 수온의 상승이다.</description>
+    </item>
+    
+    <item>
+      <title>유해조류 대번식</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch315_harmful_algal_bloom/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch315_harmful_algal_bloom/</guid>
+      <description>유해 조류 대번식은 조류의 급격한 증식으로 인해 바다의 색이 변하거나, 독성물질에 의한 피해가 나타나는 현상을 뜻한다. 유해 조류 대번식은 주로 수온이 높고, 영양분이 과도할 때 발생한다. 유해 조류 대번식으로 인해 수중 산소가 고갈되고, 때로는 독성 물질이 생성되어 해양 생물들의 집단 폐사를 일으키기도 한다. 이는 또한 인간 사회의 사회경제적 피해로 이어진다.
+유해 조류 대번식(Harmful Algal Blooms)은 어떤 현상을 뜻하는가? 유해 조류 대번식은 식물플랑크톤의 급격한 번식으로 인해 바닷물의 색이 평상시와 다른 색으로 변하거나, 거품이나 페인트와 같은 모습을 띠는 현상을 말한다.</description>
+    </item>
+    
+    <item>
+      <title>바다의 플라스틱</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch316_plastic/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch316_plastic/</guid>
+      <description>플라스틱은 1950년대부터 대량 생산되기 시작한 이후 점차 더 많은 양이 생산, 소비되고 있다. 플라스틱 쓰레기의 대부분은 재활용되지 못하며, 분해되는 데 수 백년 이상의 시간이 걸린다. 플라스틱 쓰레기는 다양한 경로를 통해 바다로 가게 된다. 플라스틱은 바다생물과 생태계에 악영향을 끼친다. 바다생물들이 플라스틱을 먹이로 오인하여 섭취하거나, 플라스틱 잔해물에 걸려들어 다치거나 죽음에 이르기도 한다. 5 mm 보다 작은 미세플라스틱은 여러 경로로 만들어지며, 생물과 인체에 더 큰 악영향을 미칠 수 있다.
+점점 더 많이 사용되는 플라스틱 편리하다는 이유로 플라스틱은 우리 생활 곳곳에서 많은 양이 쓰이고 있다.</description>
+    </item>
+    
+    <item>
+      <title>독성물질</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch317_toxic/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch317_toxic/</guid>
+      <description>오랫동안 바다는 육상에서 만들어진 폐기물을 마음대로 버려도 되는 장소로 여겨졌다. 수은, 납, 카드뮴과 같은 중금속이나 DDT, PCBs, 살충제와 같은 잔류성 유기오염물질은 바다에 오랜 기간 동안 남아있게 된다. 독성물질 중 일부는 생물 농축과 증폭으로 인해 최상위 포식자에게 축적되며, 인간이 먹으면 건강상 해를 입을 수 있다.
+독성물질은 무엇인가? 바다는 오랫동안 여러 오염물질을 마음대로 버릴 수 있는 장소로 여겨져 왔다. 지금도 매년 120억 톤 이상의 하수 슬러지가 바다로 버려지며, 매년 4백만 톤 이상의 원유가 바다로 흘러들어가고 있다.</description>
+    </item>
+    
+    <item>
+      <title>남획</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch318_overfishery/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch318_overfishery/</guid>
+      <description>전세계 해양 어류 자원의 삼분의 일 이상에서 남획이 이루어지고 있다. 파괴적인 어업방식을 규제하고, 일부 어종은 어획량을 제한하고 있다.
+칠레 연안에서 고등어 약 400톤을 한 번에 잡아들이고 있는 모습. 출처: NOAA, public domain
+남획은 무엇인가? 남획은 물고기 등 해양 생물을 너무 많이 잡아들이는 걸 말한다. 너무 많이 잡는다는 걸 정확히 정의하기는 어렵지만, 물고기 개체군이 유지되지 않고 점점 수가 줄어들 정도로 많이 잡는 걸 남획이라 말할 수 있다. 어선의 크기가 커지고, 어구가 발달하면서 점점 더 한 번에 많은 양의 물고기를 잡을 수 있게 되면서 남획의 위험 또한 커져가고 있다.</description>
+    </item>
+    
+    <item>
+      <title>서식지 파괴</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch319_habitat_destruction/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch319_habitat_destruction/</guid>
+      <description>개발사업과 간척, 바다모래 채취 및 자원 채취로 인해 많은 해양서식지가 파괴되었다. 저인망 어업과 같은 파괴적인 어획 방식이 바다의 서식지를 파괴하고 있다. 늘어나는 해산물 수요로 인해 증가한 양식어업 또한 해안을 파괴하고 있다.
+해양 생물의 서식 카리브 해 망그로브 숲의 모습. 망그로브 숲은 많은 해양생물의 산란장이자 보육장 역할을 한다.출처: Shutterstock
+바다는 광활하고 깊지만, 대부분의 해양 생물은 빛과 영양분이 풍부한 특정 지역에 모여서 산다. 육지와 맞닿은 연안지대는 얕은 수심과 육지나 깊은 바다로부터 올라오는 영양분으로 인해 많은 생명체의 보금자리가 되어왔다.</description>
+    </item>
+    
+    <item>
+      <title>전 세계 해양의 지표</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch320_world_ocean_index/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch320_world_ocean_index/</guid>
+      <description>인류는 바다를 이해하기 위해 다양한 지표를 측정해왔다(참고 바다의 지표). 오늘날 바다는 인간의 활동과 그로인한 기후변화로 인해 빠르게 변화하고 있다. 수온은 빠르게 상승 중이며, 강수량 증가 등으로 인해 지역적으로 염분의 변동도 커지고 있다. 바닷물이 따뜻해지고, 일부 해역에서는 생물 활동으로 인해 산소가 고갈되면서 바닷물 속의 용존산소도 전반적으로 줄어들고 있다. 인간이 내뿜은 이산화탄소는 대부분의 양이 바다로 녹아들면서 바다는 점점 산성화되어가고 있다. 또한 대륙빙하가 녹아 바다로 흘러가고, 해수 자체의 열팽창으로 인해 해수면이 상승하고 있다.</description>
+    </item>
+    
+    <item>
+      <title>수온상승</title>
+      <link>https://Marino89.github.io/post/ocean_state/ch321_increase_temperature/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/post/ocean_state/ch321_increase_temperature/</guid>
+      <description>1880년 이래로 매 10년 간 0.3도씩 전세계 바다의 표층 수온이 상승했다.
+수온상승, 어느 정도인가? 왜 상승하고 있나? 전세계 바다의 평균 수온은 점점 상승하고 있다. 지구온난화로 인해 지구에 갇힌 열의 대부분을 바다가 흡수하면서, 바다의 온도는 빠르게 올라가고 있다. 세계 해양의 표층 수온은 지난 100년간 10년마다 0.3도씩 지속적으로 증가해왔다. 특히 지난 30년 간의 표층 수온은 신뢰도 높은 관측이 시작된 1880년 이후로 가장 높은 값을 보여줬다1.
+모든 해역에서 수온이 균일하게 증가했나? 해양 표면 수온 평균의 변화(1901-2020) 출처: https://www.</description>
     </item>
     
     <item>
@@ -386,137 +505,6 @@ pH
     </item>
     
     <item>
-      <title>전 세계 해양의 상태</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch300_ocean_state/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch300_ocean_state/</guid>
-      <description>지금 바다의 상태는 빠르게 변하고 있다. 바다는 지금까지 누적된 인간의 활동으로 인해 여러 문제가 발생하고 있다. 기후변화로 인해 수온 상승, 해수면 상승, 빈산소화, 산성화 같은 문제가 대두되고 있다. 오랫동안 바다에 버려온 폐기물은 유해조류 대번식과 미세플라스틱 및 독성물질로 우리에게 돌아오고 있다. 지나친 연안 개발과 남획으로 해양생태계는 커다란 교란에 직면해있다. 전세계 해양의 주요 지표 또한 적색 경고를 내고 있다. 이를 측정하고 추적하는 해양과학자들은 더 늦기 전에 바다를 지켜야 한다고 경고하고 있다.</description>
-    </item>
-    
-    <item>
-      <title>전 세계 해양이 겪고 있는 대표적 문제들</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch310_ocean_problems/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch310_ocean_problems/</guid>
-      <description>바다는 지금 다양한 문제에 직면해있다. 인간은 바다가 무한한 마냥 바다를 이용해왔지만, 인간의 여러 활동이 누적되면서, 바다도 여러 이상신호를 보내고 있다. 인간이 대기 중으로 뿜어낸 이산화탄소가 바다로 대량 흡수되면서 바다는 점차 산성화되고 있다. 인위적 기후변화로 인해 지구에 추가로 축적된 열의 대부분을 바다가 흡수하면서 바다가 점차 따뜻해지고 있기도 하다. 이렇게 바다 수온이 상승하면서 전세계 바다에 녹아있는 산소량이 줄어들고 있다. 몇몇 해역에서는 부영양화로 인해 유해조류가 대번식하고 사멸하면서 산소가 고갈되고 많은 바다생물이 죽는 사태도 점점 더 자주 벌어지고 있다.</description>
-    </item>
-    
-    <item>
-      <title>수온상승</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch311_warming/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch311_warming/</guid>
-      <description>인간 활동에 의해 대기 중 온실가스 농도가 증가하고, 이로 인해 누적된 대기 중의 열을 바다가 흡수하면서 바다가 더워지고 있다. 해양의 온난화는 표층뿐 아니라 심층에서도 일어나고 있으며, 이로 인해 해수와 해양 생태계 전체에 큰 변화가 있을 것으로 예상된다. 수온상승은 온도에 민감한 해양 생물의 생존에 악영향을 끼치며, 생물의 이동과 생식에도 영향을 주어 해양생물의 분포를 바꾸고 있다.. 수온상승은 표층 바다와 심층 바다의 순환을 교란할 수 있다. 이는 바다 생태계 전반에 악영향을 주며, 기후와 어업에도 큰 변화를 가져올 수 있다.</description>
-    </item>
-    
-    <item>
-      <title>빈산소화</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch312_hypoxia/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch312_hypoxia/</guid>
-      <description>기후변화와 부영양화로 인해 바다의 용존산소가 줄어드는 빈산소화가 심화되고 있다. 특히 기후변화로 인한 수온상승은 해수의 산소 용해도를 낮추고 표층수와 저층수 간 순환을 저해시켜 빈산소화를 심화시킨다. 부영양화가 일어나면 조류가 대량증식하고, 이들이 호흡하고 분해되는 과정에서 산소가 사용되어 바닷물 속의 용존산소가 크게 줄어든다. 빈산소화의 심화는 해양 생물들의 생존에 직접적인 위협이 되며, 이들의 생식과 성장에도 영향을 미친다. 결과적으로 생태계 전체 차원에서도 큰 불안정을 야기할 수 있다.
-2007년 가을 발트해 저층수의 용존산소 값을 토대로 추정한 빈산소 및 무산소 영역 (발트해는 북유럽에 위치한 바다로, 스칸디나비아반도와 동유럽으로 둘러싸여 있다.</description>
-    </item>
-    
-    <item>
-      <title>산성화</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch313_acidification/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch313_acidification/</guid>
-      <description>인위적인 이산화탄소의 증가로 인해 바닷물이 점차 산성화되고 있다. 바닷물의 산성화는 바다에 사는 생물들의 생존과 생식을 위협한다. 바닷물의 산성화 문제를 해결하기 위해서는 기후변화 완화가 필수적이다.
-ⓒ 유채원
-바다의 산성화는 왜 일어나고 있는가? 대기 중 이산화탄소를 바다가 흡수하기 때문이다. 바다는 산업혁명 이후로 급격히 늘어난 대기 중 이산화탄소를 흡수해왔다. 산업혁명 전의 대기 중 이산화탄소 농도는 278 ppm이었지만 2020년의 평균농도는 412.5 ppm으로 증가했다. 산업혁명이 시작된 이후로 바다로 흡수된 이산화탄소의 양은 자그마치 5250억 톤으로 추정된다.</description>
-    </item>
-    
-    <item>
-      <title>해수면 상승</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch314_sea_level/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch314_sea_level/</guid>
-      <description>기후변화로 인해 빙하와 빙상이 녹은 물이 바다로 흘러들고, 해수가 열팽창하면서 해수 전체의 부피가 커지면서 해수면이 상승하고 있다. 과학적 측정이 시작된 1880년 이후로 세계 평균 해수면은 상승해왔으며, 최근 들어 그 상승 속도가 더욱 빨라지고 있다. 해수면 상승으로 인한 해안 지역의 침수로 인해 집을 잃은 난민이 대거 발생할 수 있으며, 농경지 등의 침수로 식량 수급에도 문제가 생길 수 있다.
-해수면 상승의 정의와 원인 ⓒ 유채원
-기후변화와 관련된 대표적인 해양 문제로서 언급되는 해수면 상승은 전세계 바다의 수면이 높아지는 현상을 말하며, 그 주된 원인은 지구온난화로 인한 수온의 상승이다.</description>
-    </item>
-    
-    <item>
-      <title>유해조류 대번식</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch315_harmful_algal_bloom/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch315_harmful_algal_bloom/</guid>
-      <description>유해 조류 대번식은 조류의 급격한 증식으로 인해 바다의 색이 변하거나, 독성물질에 의한 피해가 나타나는 현상을 뜻한다. 유해 조류 대번식은 주로 수온이 높고, 영양분이 과도할 때 발생한다. 유해 조류 대번식으로 인해 수중 산소가 고갈되고, 때로는 독성 물질이 생성되어 해양 생물들의 집단 폐사를 일으키기도 한다. 이는 또한 인간 사회의 사회경제적 피해로 이어진다.
-유해 조류 대번식(Harmful Algal Blooms)은 어떤 현상을 뜻하는가? 유해 조류 대번식은 식물플랑크톤의 급격한 번식으로 인해 바닷물의 색이 평상시와 다른 색으로 변하거나, 거품이나 페인트와 같은 모습을 띠는 현상을 말한다.</description>
-    </item>
-    
-    <item>
-      <title>바다의 플라스틱</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch316_plastic/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch316_plastic/</guid>
-      <description>플라스틱은 1950년대부터 대량 생산되기 시작한 이후 점차 더 많은 양이 생산, 소비되고 있다. 플라스틱 쓰레기의 대부분은 재활용되지 못하며, 분해되는 데 수 백년 이상의 시간이 걸린다. 플라스틱 쓰레기는 다양한 경로를 통해 바다로 가게 된다. 플라스틱은 바다생물과 생태계에 악영향을 끼친다. 바다생물들이 플라스틱을 먹이로 오인하여 섭취하거나, 플라스틱 잔해물에 걸려들어 다치거나 죽음에 이르기도 한다. 5 mm 보다 작은 미세플라스틱은 여러 경로로 만들어지며, 생물과 인체에 더 큰 악영향을 미칠 수 있다.
-점점 더 많이 사용되는 플라스틱 편리하다는 이유로 플라스틱은 우리 생활 곳곳에서 많은 양이 쓰이고 있다.</description>
-    </item>
-    
-    <item>
-      <title>독성물질</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch317_toxic/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch317_toxic/</guid>
-      <description>오랫동안 바다는 육상에서 만들어진 폐기물을 마음대로 버려도 되는 장소로 여겨졌다. 수은, 납, 카드뮴과 같은 중금속이나 DDT, PCBs, 살충제와 같은 잔류성 유기오염물질은 바다에 오랜 기간 동안 남아있게 된다. 독성물질 중 일부는 생물 농축과 증폭으로 인해 최상위 포식자에게 축적되며, 인간이 먹으면 건강상 해를 입을 수 있다.
-독성물질은 무엇인가? 바다는 오랫동안 여러 오염물질을 마음대로 버릴 수 있는 장소로 여겨져 왔다. 지금도 매년 120억 톤 이상의 하수 슬러지가 바다로 버려지며, 매년 4백만 톤 이상의 원유가 바다로 흘러들어가고 있다.</description>
-    </item>
-    
-    <item>
-      <title>남획</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch318_overfishery/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch318_overfishery/</guid>
-      <description>전세계 해양 어류 자원의 삼분의 일 이상에서 남획이 이루어지고 있다. 파괴적인 어업방식을 규제하고, 일부 어종은 어획량을 제한하고 있다.
-칠레 연안에서 고등어 약 400톤을 한 번에 잡아들이고 있는 모습 출처: NOAA, public domain
-남획은 무엇인가? 남획은 물고기 등 해양 생물을 너무 많이 잡아들이는 걸 말한다. 너무 많이 잡는다는 걸 정확히 정의하기는 어렵지만, 물고기 개체군이 유지되지 않고 점점 수가 줄어들 정도로 많이 잡는 걸 남획이라 말할 수 있다. 어선의 크기가 커지고, 어구가 발달하면서 점점 더 한 번에 많은 양의 물고기를 잡을 수 있게 되면서 남획의 위험 또한 커져가고 있다.</description>
-    </item>
-    
-    <item>
-      <title>서식지 파괴</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch319_habitat_destruction/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch319_habitat_destruction/</guid>
-      <description>개발사업과 간척, 바다모래 채취 및 자원 채취로 인해 많은 해양서식지가 파괴되었다. 저인망 어업과 같은 파괴적인 어획 방식이 바다의 서식지를 파괴하고 있다. 늘어나는 해산물 수요로 인해 증가한 양식어업 또한 해안을 파괴하고 있다.
-해양 생물의 서식 카리브 해 망그로브 숲의 모습. 망그로브 숲은 많은 해양생물의 산란장이자 보육장 역할을 한다.출처: Shutterstock
-바다는 광활하고 깊지만, 대부분의 해양 생물은 빛과 영양분이 풍부한 특정 지역에 모여서 산다. 육지와 맞닿은 연안지대는 얕은 수심과 육지나 깊은 바다로부터 올라오는 영양분으로 인해 많은 생명체의 보금자리가 되어왔다.</description>
-    </item>
-    
-    <item>
-      <title>전 세계 해양의 지표</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch320_world_ocean_index/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch320_world_ocean_index/</guid>
-      <description>인류는 바다를 이해하기 위해 다양한 지표를 측정해왔다(참고 바다의 지표). 오늘날 바다는 인간의 활동과 그로인한 기후변화로 인해 빠르게 변화하고 있다. 수온은 빠르게 상승 중이며, 강수량 증가 등으로 인해 지역적으로 염분의 변동도 커지고 있다. 바닷물이 따뜻해지고, 일부 해역에서는 생물 활동으로 인해 산소가 고갈되면서 바닷물 속의 용존산소도 전반적으로 줄어들고 있다. 인간이 내뿜은 이산화탄소는 대부분의 양이 바다로 녹아들면서 바다는 점점 산성화되어가고 있다. 또한 대륙빙하가 녹아 바다로 흘러가고, 해수 자체의 열팽창으로 인해 해수면이 상승하고 있다.</description>
-    </item>
-    
-    <item>
-      <title>수온상승</title>
-      <link>https://Marino89.github.io/post/ocean_state/ch321_increase_temperature/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://Marino89.github.io/post/ocean_state/ch321_increase_temperature/</guid>
-      <description>1880년 이래로 매 10년 간 0.3도씩 전세계 바다의 표층 수온이 상승했다.
-수온상승, 어느 정도인가? 왜 상승하고 있나? 전세계 바다의 평균 수온은 점점 상승하고 있다. 지구온난화로 인해 지구에 갇힌 열의 대부분을 바다가 흡수하면서, 바다의 온도는 빠르게 올라가고 있다. 세계 해양의 표층 수온은 지난 100년간 10년마다 0.3도씩 지속적으로 증가해왔다. 특히 지난 30년 간의 표층 수온은 신뢰도 높은 관측이 시작된 1880년 이후로 가장 높은 값을 보여줬다1.
-모든 해역에서 수온이 균일하게 증가했나? 해양 표면 수온 평균의 변화(1901-2020) 출처: https://www.</description>
-    </item>
-    
-    <item>
       <title>세계 해양의 염분 분포</title>
       <link>https://Marino89.github.io/post/ocean_state/ch322_world_salinity/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
@@ -554,6 +542,18 @@ pH
       <guid>https://Marino89.github.io/post/ocean_state/ch325_world_sealevel/</guid>
       <description>기후변화로 인해 전지구적으로 해수면 높이가 상승하고 있으며, 그 상승 속도는 점점 더 빨라지고 있다. 해수면 높이의 상승 속도는 모두 같지 않고, 해역별로 차이가 있다. 이는 해수면 높이의 변동에 영향을 미치는 요인들의 변화 정도가 해역마다 다르기 때문이다.
 전세계 평균 해수면 변화 과학적 측정이 시작된 1880년 이후로 세계 평균 해수면 높이는 약 21~24cm 증가했다.1 1900년부터 1990년 사이에는 평균적으로 약 10~12.7cm 가량 상승한 것으로 추정된다. 이후 1990년부터 2015년 사이에 불과 25년만에 7.6cm가 증가했다.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://Marino89.github.io/about/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://Marino89.github.io/about/</guid>
+      <description>대표저자 유신재
+미국 뉴요크 주립대에서 생태·진화생물학 박사학위를 받았고 1988년 이래 한국해양과학기술원에서 근무하였다. 북태평양 해양과학기구 과학평의회 의장을 역임하고 현재 국제해양과학연구회(SCOR) 의장을 맡고 있다. 환경변화가 부유생물 군집구조와 생산력에 미치는 영향을 연구하고 있다. 공저자 유채원
+서울대학교 환경대학원에서 석사학위를 받았고 스웨덴 룬드 대학교에서 인문지리학 석사과정을 밟고 있다. 생태계와 사회의 상호작용을 섬세하게 들여다보고 연구하여, 이를 시민들에게 전달하는 활동에 관심을 두고 있다. 공저자 김민재
+서울대 지구환경시스템공학부를 졸업한 후 사회학과에서 석사학위를 받았다. 주요 관심 분야는 환경운동, 환경문제와 과학기술의 관계 등이다.</description>
     </item>
     
   </channel>
